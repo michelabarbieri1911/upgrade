@@ -1,9 +1,9 @@
-PWD /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1
+PWD /Users/Barbieri/Desktop/LSGNT Year 3/upgrade
 INPUT /usr/local/texlive/2021/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.tex
-OUTPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.log
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.tex
+OUTPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.log
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amscls/amsart.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amscls/amsart.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amscls/amsart.cls
@@ -506,10 +506,10 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.de
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.aux
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.aux
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.aux
-OUTPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.aux
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux
+OUTPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
@@ -556,10 +556,10 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.toc
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.toc
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.toc
-OUTPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.toc
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.toc
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.toc
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.toc
+OUTPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.toc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
@@ -568,95 +568,95 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-OUTPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.pdf
+OUTPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/orbits of P1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/orbits of P1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/orbits of P1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/orbits of P1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/orbits of P1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/diffquotients.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/diffquotients.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/diffquotients.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/diffquotients.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/diffquotients.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/primary.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/primary.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/primary.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/primary.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/primary.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/secondary.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/secondary.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/secondary.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/secondary.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/secondary.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondaryfan1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondaryfan1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondaryfan1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondaryfan1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondaryfan1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/primarypolygon1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/primarypolygon1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/primarypolygon1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/primarypolygon1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/primarypolygon1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/orbits of P1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/orbits of P1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/orbits of P1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/orbits of P1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/orbits of P1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/diffquotients.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/diffquotients.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/diffquotients.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/diffquotients.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/diffquotients.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/primary.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/primary.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/primary.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/primary.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/primary.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/secondary.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/secondary.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/secondary.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/secondary.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/secondary.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondaryfan1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondaryfan1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondaryfan1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondaryfan1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondaryfan1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/primarypolygon1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/primarypolygon1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/primarypolygon1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/primarypolygon1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/primarypolygon1.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/toricfans1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/toricfans1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/toricfans1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/toricfans1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/toricfans1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondarypolytope.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondarypolytope.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondarypolytope.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondarypolytope.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondarypolytope.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/FIPS1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/FIPS1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/FIPS1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/FIPS1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/FIPS1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/projection1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/projection1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/projection1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/projection1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/projection1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/zariski1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/zariski1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/zariski1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/zariski1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/zariski1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/exmp1tau.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/exmp1tau.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/exmp1tau.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/exmp1tau.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/exmp1tau.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/sigma1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/sigma1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/sigma1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/sigma1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/sigma1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidaction1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidaction1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidaction1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidaction1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidaction1.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/B3.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/B3.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/B3.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/B3.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/B3.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidgenerators.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidgenerators.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidgenerators.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidgenerators.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidgenerators.png
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.bbl
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.bbl
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.bbl
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.bbl
-INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.aux
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/toricfans1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/toricfans1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/toricfans1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/toricfans1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/toricfans1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondarypolytope.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondarypolytope.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondarypolytope.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondarypolytope.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondarypolytope.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/FIPS1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/FIPS1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/FIPS1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/FIPS1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/FIPS1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/projection1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/projection1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/projection1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/projection1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/projection1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/zariski1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/zariski1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/zariski1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/zariski1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/zariski1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/exmp1tau.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/exmp1tau.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/exmp1tau.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/exmp1tau.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/exmp1tau.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/sigma1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/sigma1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/sigma1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/sigma1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/sigma1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidaction1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidaction1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidaction1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidaction1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidaction1.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/B3.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/B3.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/B3.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/B3.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/B3.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidgenerators.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidgenerators.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidgenerators.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidgenerators.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidgenerators.png
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.bbl
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.bbl
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.bbl
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.bbl
+INPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

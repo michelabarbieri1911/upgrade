@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  22 FEB 2024 15:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  22 FEB 2024 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.tex"
-(/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.tex
+**"/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.tex"
+(/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/amscls/amsart.cls
 Document Class: amsart 2020/05/29 v2.20.6
@@ -398,7 +398,7 @@ Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count304
 \l__pdf_internal_box=\box62
-) (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.aux)
+) (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -443,7 +443,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.toc)
+ (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -551,7 +551,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--169
 
  []
 
-[7] [8 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/orbits of P1.png>]
+[7] [8 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/orbits of P1.png>]
 <git/diffquotients.png, id=54, 502.87875pt x 112.42pt>
 File: git/diffquotients.png Graphic file (type png)
 <use git/diffquotients.png>
@@ -562,7 +562,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--233
 
  []
 
-[9 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/diffquotients.png>]
+[9 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/diffquotients.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 241--245
 
  []
@@ -626,40 +626,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--367
 <face&subspace/primary.png, id=80, 242.9075pt x 149.55875pt>
 File: face&subspace/primary.png Graphic file (type png)
 <use face&subspace/primary.png>
-Package pdftex.def Info: face&subspace/primary.png  used on input line 444.
+Package pdftex.def Info: face&subspace/primary.png  used on input line 446.
 (pdftex.def)             Requested size: 142.26378pt x 87.59077pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 455--461
+Underfull \hbox (badness 10000) in paragraph at lines 457--463
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--461
+Underfull \hbox (badness 10000) in paragraph at lines 457--463
 
  []
 
-[17 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/primary.png>]
-Overfull \hbox (16.21698pt too wide) in paragraph at lines 466--467
+[17 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/primary.png>]
+Overfull \hbox (16.21698pt too wide) in paragraph at lines 468--469
 \OT1/cmr/m/n/10 should cor-re-spond to a spher-i-cal twist about a spher-i-cal func-tor $\OML/cmm/m/it/10 F[] \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 D[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Z[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 !
  []
 
 <face&subspace/secondary.png, id=88, 400.49625pt x 114.4275pt>
 File: face&subspace/secondary.png Graphic file (type png)
 <use face&subspace/secondary.png>
-Package pdftex.def Info: face&subspace/secondary.png  used on input line 479.
+Package pdftex.def Info: face&subspace/secondary.png  used on input line 481.
 (pdftex.def)             Requested size: 170.71652pt x 48.77682pt.
-[18 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/secondary.png>]
+[18 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/secondary.png>]
 <rank2exmp/secondaryfan1.png, id=93, 450.68375pt x 352.31625pt>
 File: rank2exmp/secondaryfan1.png Graphic file (type png)
 <use rank2exmp/secondaryfan1.png>
-Package pdftex.def Info: rank2exmp/secondaryfan1.png  used on input line 523.
+Package pdftex.def Info: rank2exmp/secondaryfan1.png  used on input line 525.
 (pdftex.def)             Requested size: 227.62204pt x 177.94249pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--529
+Underfull \hbox (badness 10000) in paragraph at lines 521--531
 
  []
 
@@ -670,46 +670,46 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <rank2exmp/primarypolygon1.png, id=98, 428.60126pt x 406.51875pt>
 File: rank2exmp/primarypolygon1.png Graphic file (type png)
 <use rank2exmp/primarypolygon1.png>
-Package pdftex.def Info: rank2exmp/primarypolygon1.png  used on input line 560.
+Package pdftex.def Info: rank2exmp/primarypolygon1.png  used on input line 562.
 (pdftex.def)             Requested size: 144.00055pt x 136.58316pt.
 <rank2exmp/toricfans1.png, id=99, 485.815pt x 368.37625pt>
 File: rank2exmp/toricfans1.png Graphic file (type png)
 <use rank2exmp/toricfans1.png>
-Package pdftex.def Info: rank2exmp/toricfans1.png  used on input line 566.
+Package pdftex.def Info: rank2exmp/toricfans1.png  used on input line 568.
 (pdftex.def)             Requested size: 144.00055pt x 109.18716pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--574
+Underfull \hbox (badness 10000) in paragraph at lines 553--576
 
  []
 
-[20 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondaryfan1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 580--584
+[20 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondaryfan1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 582--586
 
  []
 
-Excluding 'comment' comment. [21 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/primarypolygon1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/toricfans1.png>]
+Excluding 'comment' comment. [21 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/primarypolygon1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/toricfans1.png>]
 <rank2exmp/secondarypolytope.png, id=110, 499.8675pt x 366.36874pt>
 File: rank2exmp/secondarypolytope.png Graphic file (type png)
 <use rank2exmp/secondarypolytope.png>
-Package pdftex.def Info: rank2exmp/secondarypolytope.png  used on input line 626.
+Package pdftex.def Info: rank2exmp/secondarypolytope.png  used on input line 628.
 (pdftex.def)             Requested size: 227.62204pt x 166.8322pt.
- [22 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondarypolytope.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 633--641
+ [22 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondarypolytope.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 635--643
 
  []
 
 
-Overfull \hbox (11.42517pt too wide) in paragraph at lines 633--641
+Overfull \hbox (11.42517pt too wide) in paragraph at lines 635--643
 \OT1/cmr/m/n/10 In line with this we will scale out $\OML/cmm/m/it/10 d$ \OT1/cmr/m/n/10 and now think of $\OML/cmm/m/it/10 FIPS$ \OT1/cmr/m/n/10 as $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--641
+Underfull \hbox (badness 10000) in paragraph at lines 635--643
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--641
+Underfull \hbox (badness 10000) in paragraph at lines 635--643
 
  []
 
@@ -717,99 +717,99 @@ Underfull \hbox (badness 10000) in paragraph at lines 633--641
 <rank2exmp/FIPS1.png, id=118, 389.455pt x 295.1025pt>
 File: rank2exmp/FIPS1.png Graphic file (type png)
 <use rank2exmp/FIPS1.png>
-Package pdftex.def Info: rank2exmp/FIPS1.png  used on input line 663.
+Package pdftex.def Info: rank2exmp/FIPS1.png  used on input line 665.
 (pdftex.def)             Requested size: 227.62204pt x 172.4744pt.
 <rank2exmp/projection1.png, id=119, 421.575pt x 273.02pt>
 File: rank2exmp/projection1.png Graphic file (type png)
 <use rank2exmp/projection1.png>
-Package pdftex.def Info: rank2exmp/projection1.png  used on input line 672.
+Package pdftex.def Info: rank2exmp/projection1.png  used on input line 674.
 (pdftex.def)             Requested size: 227.62204pt x 147.4161pt.
 <rank2exmp/zariski1.png, id=120, 465.74pt x 365.365pt>
 File: rank2exmp/zariski1.png Graphic file (type png)
 <use rank2exmp/zariski1.png>
-Package pdftex.def Info: rank2exmp/zariski1.png  used on input line 679.
+Package pdftex.def Info: rank2exmp/zariski1.png  used on input line 681.
 (pdftex.def)             Requested size: 341.43306pt x 267.8571pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--684
+Underfull \hbox (badness 10000) in paragraph at lines 656--686
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--684
+Underfull \hbox (badness 10000) in paragraph at lines 656--686
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--684
+Underfull \hbox (badness 10000) in paragraph at lines 656--686
 
  []
 
-[24 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/FIPS1.png>]
+[24 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/FIPS1.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/projection1.png>]
+[25 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/projection1.png>]
 <rank2exmp/exmp1tau.png, id=130, 625.33624pt x 289.08pt>
 File: rank2exmp/exmp1tau.png Graphic file (type png)
 <use rank2exmp/exmp1tau.png>
-Package pdftex.def Info: rank2exmp/exmp1tau.png  used on input line 698.
+Package pdftex.def Info: rank2exmp/exmp1tau.png  used on input line 700.
 (pdftex.def)             Requested size: 341.43306pt x 157.8388pt.
 <rank2exmp/sigma1.png, id=131, 692.5875pt x 282.05376pt>
 File: rank2exmp/sigma1.png Graphic file (type png)
 <use rank2exmp/sigma1.png>
-Package pdftex.def Info: rank2exmp/sigma1.png  used on input line 705.
+Package pdftex.def Info: rank2exmp/sigma1.png  used on input line 707.
 (pdftex.def)             Requested size: 341.43306pt x 139.05109pt.
 <rank2exmp/braidaction1.png, id=132, 408.52625pt x 305.14pt>
 File: rank2exmp/braidaction1.png Graphic file (type png)
 <use rank2exmp/braidaction1.png>
-Package pdftex.def Info: rank2exmp/braidaction1.png  used on input line 712.
+Package pdftex.def Info: rank2exmp/braidaction1.png  used on input line 714.
 (pdftex.def)             Requested size: 227.62204pt x 170.02051pt.
 <rank2exmp/B3.png, id=133, 1328.965pt x 606.265pt>
 File: rank2exmp/B3.png Graphic file (type png)
 <use rank2exmp/B3.png>
-Package pdftex.def Info: rank2exmp/B3.png  used on input line 719.
+Package pdftex.def Info: rank2exmp/B3.png  used on input line 721.
 (pdftex.def)             Requested size: 227.62204pt x 103.8315pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--725
+Underfull \hbox (badness 10000) in paragraph at lines 694--727
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--725
+Underfull \hbox (badness 10000) in paragraph at lines 694--727
 
  []
 
-[26 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/zariski1.png>]
+[26 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/zariski1.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/exmp1tau.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/sigma1.png>]
+[27 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/exmp1tau.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/sigma1.png>]
 <rank2exmp/braidgenerators.png, id=143, 751.80875pt x 306.14375pt>
 File: rank2exmp/braidgenerators.png Graphic file (type png)
 <use rank2exmp/braidgenerators.png>
-Package pdftex.def Info: rank2exmp/braidgenerators.png  used on input line 738.
+Package pdftex.def Info: rank2exmp/braidgenerators.png  used on input line 740.
 (pdftex.def)             Requested size: 398.33858pt x 162.2087pt.
 
-Overfull \hbox (38.33858pt too wide) in paragraph at lines 738--739
+Overfull \hbox (38.33858pt too wide) in paragraph at lines 740--741
  [][] 
  []
 
-[28 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidaction1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/B3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 747--751
+[28 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidaction1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/B3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 749--753
 
  []
 
-[29 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidgenerators.png>] [30] [31] (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.bbl) [32] (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.aux) ) 
+[29 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidgenerators.png>] [30] [31] (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.bbl) [32] (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux) ) 
 Here is how much of TeX's memory you used:
  16384 strings out of 478994
- 331731 string characters out of 5858184
+ 331705 string characters out of 5858184
  602305 words of memory out of 5000000
  33420 multiletter control sequences out of 15000+600000
  410437 words of font info for 54 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 127i,14n,130p,2079b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,14n,130p,2077b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.pdf" (32 pages, 1664923 bytes).
+Output written on "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf" (32 pages, 1664979 bytes).
 PDF statistics:
  240 PDF objects out of 1000 (max. 8388607)
  148 compressed objects within 2 object streams
