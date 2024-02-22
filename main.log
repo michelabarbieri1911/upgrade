@@ -1,0 +1,818 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  22 FEB 2024 15:39
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.tex"
+(/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+\linespacing=\dimen138
+\normalparindent=\dimen139
+\normaltopskip=\skip47
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen140
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen141
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count179
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count180
+\leftroot@=\count181
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count182
+\DOTSCASE@=\count183
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen142
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count184
+\c@MaxMatrixCols=\count185
+\dotsspace@=\muskip16
+\c@parentequation=\count186
+\dspbrk@lvl=\count187
+\tag@help=\toks16
+\row@=\count188
+\column@=\count189
+\maxfields@=\count190
+\andhelp@=\toks17
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks18
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 397.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+\copyins=\insert199
+\abstractbox=\box49
+\listisep=\skip51
+\c@part=\count191
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@subparagraph=\count196
+\c@figure=\count197
+\c@table=\count198
+\abovecaptionskip=\skip52
+\belowcaptionskip=\skip53
+\captionindent=\dimen149
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks25
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/03/18 v1.25 mathematical typesetting tools
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count266
+\calc@Bcount=\count267
+\calc@Adimen=\dimen150
+\calc@Bdimen=\dimen151
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count268
+\calc@Cskip=\skip59
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count269
+\l_MT_multwidth_dim=\dimen152
+\origjot=\skip60
+\l_MT_shortvdotswithinadjustabove_dim=\dimen153
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen154
+\l_MT_above_intertext_sep=\dimen155
+\l_MT_below_intertext_sep=\dimen156
+\l_MT_above_shortintertext_sep=\dimen157
+\l_MT_below_shortintertext_sep=\dimen158
+\xmathstrut@box=\box50
+\xmathstrut@dim=\dimen159
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+LaTeX Info: Redefining \larger on input line 150.
+LaTeX Info: Redefining \smaller on input line 151.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
+Package: tikz-cd 2018/11/19 v0.9f Commutative diagrams with TikZ
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box51
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen164
+\pgf@y=\dimen165
+\pgf@xa=\dimen166
+\pgf@ya=\dimen167
+\pgf@xb=\dimen168
+\pgf@yb=\dimen169
+\pgf@xc=\dimen170
+\pgf@yc=\dimen171
+\pgf@xd=\dimen172
+\pgf@yd=\dimen173
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count270
+\c@pgf@countb=\count271
+\c@pgf@countc=\count272
+\c@pgf@countd=\count273
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count274
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count275
+\pgfsyssoftpath@bigbuffer@items=\count276
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen174
+\pgfmath@count=\count277
+\pgfmath@box=\box52
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count278
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen175
+\pgf@picmaxx=\dimen176
+\pgf@picminy=\dimen177
+\pgf@picmaxy=\dimen178
+\pgf@pathminx=\dimen179
+\pgf@pathmaxx=\dimen180
+\pgf@pathminy=\dimen181
+\pgf@pathmaxy=\dimen182
+\pgf@xx=\dimen183
+\pgf@xy=\dimen184
+\pgf@yx=\dimen185
+\pgf@yy=\dimen186
+\pgf@zx=\dimen187
+\pgf@zy=\dimen188
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen189
+\pgf@path@lasty=\dimen190
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen191
+\pgf@shorten@start@additional=\dimen192
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box53
+\pgf@hbox=\box54
+\pgf@layerbox@main=\box55
+\pgf@picture@serial@count=\count279
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen193
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen194
+\pgf@pt@y=\dimen195
+\pgf@pt@temp=\dimen196
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen197
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen198
+\pgf@sys@shading@range@num=\count280
+\pgf@shadingcount=\count281
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box56
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box57
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen256
+\pgf@nodesepend=\dimen257
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen258
+\pgffor@skip=\dimen259
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count282
+\pgfplotmarksize=\dimen260
+)
+\tikz@lastx=\dimen261
+\tikz@lasty=\dimen262
+\tikz@lastxsaved=\dimen263
+\tikz@lastysaved=\dimen264
+\tikz@lastmovetox=\dimen265
+\tikz@lastmovetoy=\dimen266
+\tikzleveldistance=\dimen267
+\tikzsiblingdistance=\dimen268
+\tikz@figbox=\box58
+\tikz@figbox@bg=\box59
+\tikz@tempbox=\box60
+\tikz@tempbox@bg=\box61
+\tikztreelevel=\count283
+\tikznumberofchildren=\count284
+\tikznumberofcurrentchild=\count285
+\tikz@fig@count=\count286
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count287
+\pgfmatrixcurrentcolumn=\count288
+\pgf@matrix@numberofcolumns=\count289
+)
+\tikz@expandcount=\count290
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (/usr/local/texlive/2021/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowinset=\dimen269
+\pgfarrowlength=\dimen270
+\pgfarrowwidth=\dimen271
+\pgfarrowlinewidth=\dimen272
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen273
+\captionmargin@=\dimen274
+\captionwidth=\dimen275
+\caption@tempdima=\dimen276
+\caption@indent=\dimen277
+\caption@parindent=\dimen278
+\caption@hangindent=\dimen279
+Package caption Info: AMS or SMF document class detected.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption-ams-smf.sto
+File: caption-ams-smf.sto 2020/08/22 v2.0 Adaption of the caption package to the AMS and SMF document classes (AR)
+))
+\c@caption@flags=\count291
+\c@continuedfloat=\count292
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count293
+\c@subtable=\count294
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+ Excluding comment 'comment')
+\c@thm=\count295
+\c@theoremdefinition=\count296
+\c@prop=\count297
+\c@corollary=\count298
+\c@lemma=\count299
+\c@definition=\count300
+\c@conjecture=\count301
+\c@example=\count302
+\c@remark=\count303
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count304
+\l__pdf_internal_box=\box62
+) (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count305
+\scratchdimen=\dimen280
+\scratchbox=\box63
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen281
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks40
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.toc)
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+
+
+Class amsart Warning: Abstract should precede \maketitle in AMS document classes; reported on input line 60.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+
+ []
+
+[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (2.38191pt too wide) in paragraph at lines 74--76
+[]\OT1/cmr/bx/n/10 Conjecture 1.1 \OT1/cmr/m/n/10 (Physics mir-ror sym-me-try)\OT1/cmr/bx/n/10 . []\OT1/cmr/m/n/10 Given a Calabi-Yau three-fold $(\OML/cmm/m/it/10 X; J; !\OT1/cmr/m/n/10 )$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
+
+ []
+
+[2]
+Overfull \hbox (16.3758pt too wide) detected at line 95
+[]
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 105--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--113
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 115--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--131
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 133--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--146
+
+ []
+
+[6]
+<git/orbits of P1.png, id=42, 730.73pt x 599.23875pt>
+File: git/orbits of P1.png Graphic file (type png)
+<use git/orbits of P1.png>
+Package pdftex.def Info: git/orbits of P1.png  used on input line 161.
+(pdftex.def)             Requested size: 142.26378pt x 116.66364pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--169
+
+ []
+
+[7] [8 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/orbits of P1.png>]
+<git/diffquotients.png, id=54, 502.87875pt x 112.42pt>
+File: git/diffquotients.png Graphic file (type png)
+<use git/diffquotients.png>
+Package pdftex.def Info: git/diffquotients.png  used on input line 212.
+(pdftex.def)             Requested size: 227.62204pt x 50.88528pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--233
+
+ []
+
+[9 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/git/diffquotients.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
+
+ []
+
+[10]
+Overfull \hbox (7.75482pt too wide) in paragraph at lines 263--264
+ \OT1/cmr/m/n/10 2.3.\OT1/cmr/bx/n/10 Spherical Func-tors.[] \OT1/cmr/m/n/10 Let us con-sider a rank $\OML/cmm/m/it/10 r$ \OT1/cmr/m/n/10 torus $\OML/cmm/m/it/10 T$ \OT1/cmr/m/n/10 act-ing on a $\OML/cmm/m/it/10 n$\OT1/cmr/m/n/10 -dimensional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--287
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 299--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--311
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 317--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--348
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 351--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--367
+
+ []
+
+[14] [15]
+<face&subspace/primary.png, id=80, 242.9075pt x 149.55875pt>
+File: face&subspace/primary.png Graphic file (type png)
+<use face&subspace/primary.png>
+Package pdftex.def Info: face&subspace/primary.png  used on input line 444.
+(pdftex.def)             Requested size: 142.26378pt x 87.59077pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 455--461
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--461
+
+ []
+
+[17 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/primary.png>]
+Overfull \hbox (16.21698pt too wide) in paragraph at lines 466--467
+\OT1/cmr/m/n/10 should cor-re-spond to a spher-i-cal twist about a spher-i-cal func-tor $\OML/cmm/m/it/10 F[] \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 D[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Z[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 !
+ []
+
+<face&subspace/secondary.png, id=88, 400.49625pt x 114.4275pt>
+File: face&subspace/secondary.png Graphic file (type png)
+<use face&subspace/secondary.png>
+Package pdftex.def Info: face&subspace/secondary.png  used on input line 479.
+(pdftex.def)             Requested size: 170.71652pt x 48.77682pt.
+[18 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/face&subspace/secondary.png>]
+<rank2exmp/secondaryfan1.png, id=93, 450.68375pt x 352.31625pt>
+File: rank2exmp/secondaryfan1.png Graphic file (type png)
+<use rank2exmp/secondaryfan1.png>
+Package pdftex.def Info: rank2exmp/secondaryfan1.png  used on input line 523.
+(pdftex.def)             Requested size: 227.62204pt x 177.94249pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--529
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19]
+<rank2exmp/primarypolygon1.png, id=98, 428.60126pt x 406.51875pt>
+File: rank2exmp/primarypolygon1.png Graphic file (type png)
+<use rank2exmp/primarypolygon1.png>
+Package pdftex.def Info: rank2exmp/primarypolygon1.png  used on input line 560.
+(pdftex.def)             Requested size: 144.00055pt x 136.58316pt.
+<rank2exmp/toricfans1.png, id=99, 485.815pt x 368.37625pt>
+File: rank2exmp/toricfans1.png Graphic file (type png)
+<use rank2exmp/toricfans1.png>
+Package pdftex.def Info: rank2exmp/toricfans1.png  used on input line 566.
+(pdftex.def)             Requested size: 144.00055pt x 109.18716pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--574
+
+ []
+
+[20 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondaryfan1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 580--584
+
+ []
+
+Excluding 'comment' comment. [21 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/primarypolygon1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/toricfans1.png>]
+<rank2exmp/secondarypolytope.png, id=110, 499.8675pt x 366.36874pt>
+File: rank2exmp/secondarypolytope.png Graphic file (type png)
+<use rank2exmp/secondarypolytope.png>
+Package pdftex.def Info: rank2exmp/secondarypolytope.png  used on input line 626.
+(pdftex.def)             Requested size: 227.62204pt x 166.8322pt.
+ [22 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/secondarypolytope.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 633--641
+
+ []
+
+
+Overfull \hbox (11.42517pt too wide) in paragraph at lines 633--641
+\OT1/cmr/m/n/10 In line with this we will scale out $\OML/cmm/m/it/10 d$ \OT1/cmr/m/n/10 and now think of $\OML/cmm/m/it/10 FIPS$ \OT1/cmr/m/n/10 as $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--641
+
+ []
+
+[23]
+<rank2exmp/FIPS1.png, id=118, 389.455pt x 295.1025pt>
+File: rank2exmp/FIPS1.png Graphic file (type png)
+<use rank2exmp/FIPS1.png>
+Package pdftex.def Info: rank2exmp/FIPS1.png  used on input line 663.
+(pdftex.def)             Requested size: 227.62204pt x 172.4744pt.
+<rank2exmp/projection1.png, id=119, 421.575pt x 273.02pt>
+File: rank2exmp/projection1.png Graphic file (type png)
+<use rank2exmp/projection1.png>
+Package pdftex.def Info: rank2exmp/projection1.png  used on input line 672.
+(pdftex.def)             Requested size: 227.62204pt x 147.4161pt.
+<rank2exmp/zariski1.png, id=120, 465.74pt x 365.365pt>
+File: rank2exmp/zariski1.png Graphic file (type png)
+<use rank2exmp/zariski1.png>
+Package pdftex.def Info: rank2exmp/zariski1.png  used on input line 679.
+(pdftex.def)             Requested size: 341.43306pt x 267.8571pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--684
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--684
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--684
+
+ []
+
+[24 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/FIPS1.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/projection1.png>]
+<rank2exmp/exmp1tau.png, id=130, 625.33624pt x 289.08pt>
+File: rank2exmp/exmp1tau.png Graphic file (type png)
+<use rank2exmp/exmp1tau.png>
+Package pdftex.def Info: rank2exmp/exmp1tau.png  used on input line 698.
+(pdftex.def)             Requested size: 341.43306pt x 157.8388pt.
+<rank2exmp/sigma1.png, id=131, 692.5875pt x 282.05376pt>
+File: rank2exmp/sigma1.png Graphic file (type png)
+<use rank2exmp/sigma1.png>
+Package pdftex.def Info: rank2exmp/sigma1.png  used on input line 705.
+(pdftex.def)             Requested size: 341.43306pt x 139.05109pt.
+<rank2exmp/braidaction1.png, id=132, 408.52625pt x 305.14pt>
+File: rank2exmp/braidaction1.png Graphic file (type png)
+<use rank2exmp/braidaction1.png>
+Package pdftex.def Info: rank2exmp/braidaction1.png  used on input line 712.
+(pdftex.def)             Requested size: 227.62204pt x 170.02051pt.
+<rank2exmp/B3.png, id=133, 1328.965pt x 606.265pt>
+File: rank2exmp/B3.png Graphic file (type png)
+<use rank2exmp/B3.png>
+Package pdftex.def Info: rank2exmp/B3.png  used on input line 719.
+(pdftex.def)             Requested size: 227.62204pt x 103.8315pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--725
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--725
+
+ []
+
+[26 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/zariski1.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/exmp1tau.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/sigma1.png>]
+<rank2exmp/braidgenerators.png, id=143, 751.80875pt x 306.14375pt>
+File: rank2exmp/braidgenerators.png Graphic file (type png)
+<use rank2exmp/braidgenerators.png>
+Package pdftex.def Info: rank2exmp/braidgenerators.png  used on input line 738.
+(pdftex.def)             Requested size: 398.33858pt x 162.2087pt.
+
+Overfull \hbox (38.33858pt too wide) in paragraph at lines 738--739
+ [][] 
+ []
+
+[28 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidaction1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/B3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 747--751
+
+ []
+
+[29 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/rank2exmp/braidgenerators.png>] [30] [31] (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.bbl) [32] (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.aux) ) 
+Here is how much of TeX's memory you used:
+ 16384 strings out of 478994
+ 331731 string characters out of 5858184
+ 602305 words of memory out of 5000000
+ 33420 multiletter control sequences out of 15000+600000
+ 410437 words of font info for 54 fonts, out of 8000000 for 9000
+ 1302 hyphenation exceptions out of 8191
+ 127i,14n,130p,2079b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade-1/main.pdf" (32 pages, 1664923 bytes).
+PDF statistics:
+ 240 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+
