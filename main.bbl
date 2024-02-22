@@ -1,0 +1,84 @@
+\begin{thebibliography}{10}
+
+\bibitem{spherical}
+N.~Addington.
+\newblock New derived symmetries of some hyperkähler varieties.
+\newblock {\em arXiv preprint arXiv:1112.0487}, 2011.
+
+\bibitem{mirrorsym}
+P.~Candelas, C.~Xenia, P.~S. Green, and L.~Parkes.
+\newblock A pair of calabi-yau manifolds as an exactly soluble superconformal
+  theory.
+\newblock {\em Nuclear Physics B}, 359(1):21--74, 1991.
+
+\bibitem{coates2018crepant}
+T.~Coates, H.~Iritani, and Y.~Jiang.
+\newblock The crepant transformation conjecture for toric complete
+  intersections.
+\newblock {\em Advances in Mathematics}, 329:1002--1087, 2018.
+
+\bibitem{cogolludo}
+J.~I. Cogolludo-Agust{\'\i}n.
+\newblock Braid monodromy of algebraic curves.
+\newblock In {\em Annales math{\'e}matiques Blaise Pascal}, volume~18, pages
+  141--209, 2011.
+
+\bibitem{gelfand1994discriminants}
+I.~M. Gelfand, M.~M. Kapranov, A.~V. Zelevinsky, I.~M. Gelfand, M.~M. Kapranov,
+  and A.~V. Zelevinsky.
+\newblock {\em A-discriminants}.
+\newblock Springer, 1994.
+
+\bibitem{scft}
+M.~Gell-Mann and M.~L{\'e}vy.
+\newblock The axial vector current in beta decay.
+\newblock {\em Il Nuovo Cimento (1955-1965)}, 16(4):705--726, 1960.
+
+\bibitem{derivedgit}
+D.~Halpern-Leistner.
+\newblock The derived category of a git quotient.
+\newblock {\em Journal of the American Mathematical Society}, 28(3):871--912,
+  2015.
+
+\bibitem{gitauto}
+D.~Halpern-Leistner and I.~Shipman.
+\newblock Autoequivalences of derived categories via geometric invariant
+  theory.
+\newblock {\em Advances in Mathematics}, 303:1264--1299, 2016.
+
+\bibitem{horivafa}
+K.~Hori and C.~Vafa.
+\newblock Mirror symmetry.
+\newblock {\em arXiv preprint hep-th/0002222}, 2000.
+
+\bibitem{huybrechts}
+D.~Huybrechts.
+\newblock {\em Fourier-Mukai transforms in algebraic geometry}.
+\newblock Clarendon Press, 2006.
+
+\bibitem{kite2022discriminants}
+A.~Kite and E.~Segal.
+\newblock Discriminants and semi-orthogonal decompositions.
+\newblock {\em Communications in Mathematical Physics}, 390(2):907--931, 2022.
+
+\bibitem{mumford1994geometric}
+D.~Mumford, J.~Fogarty, and F.~Kirwan.
+\newblock {\em Geometric invariant theory}, volume~34.
+\newblock Springer Science \& Business Media, 1994.
+
+\bibitem{mumford}
+D.~Mumford, J.~Fogarty, and F.~Kirwan.
+\newblock {\em Geometric invariant theory}, volume~34.
+\newblock Springer Science \& Business Media, 1994.
+
+\bibitem{seidelfukaya}
+P.~Seidel.
+\newblock {\em Fukaya categories and Picard-Lefschetz theory}, volume~10.
+\newblock European Mathematical Society, 2008.
+
+\bibitem{syz}
+A.~Strominger, S.-T. Yau, and E.~Zaslow.
+\newblock Mirror symmetry is t-duality.
+\newblock {\em Nuclear Physics B}, 479(1-2):243--259, 1996.
+
+\end{thebibliography}
