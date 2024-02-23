@@ -1,6 +1,11 @@
 % Article template for Mathematics Magazine
 \documentclass[oneside]{amsart}
 
+%for the git double slash
+\usepackage{stmaryrd}
+
+
+
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{mathtools}
@@ -50,7 +55,7 @@
 \newcommand{\R}{\mathbb{R}}
 \renewcommand{\baselinestretch}{1.2}
 %This is the command that spaces the manuscript for easy reading
-\title{An example of how the monodromy action of the Stringy Kähler Moduli Space on the A-side carries over to the B-side}
+\title{Brane Monodromy for Toric GIT}
 \author[]{Michela Barbieri}
 \pagestyle{plain}
 \begin{document}
@@ -62,24 +67,24 @@
 \end{abstract}
 
 \paragraph*{Acknowledgment}
-I would like to give a special thanks to my PhD supervisor Professor Edward Segal for his guidance and support throughout my PhD so far. Much of the content of this report was patiently taught to me by him. 
+I would like to give a special thanks to my PhD supervisor Professor Ed Segal for his guidance and support throughout my PhD so far. Much of the content of this report was patiently taught to me by him. 
 
 \section{Introduction}
 When mathematicians talk about mirror symmetry, they refer to a collection of mysterious relationships between different geometric objects spanning differential, symplectic, and algebraic geometry. The story starts in 1991 when string theorists Candelas, de la Ossa, Green, and Parkes published their famous paper \cite{mirrorsym}. This paper caught the attention of mathematicians because the physicists used mysterious methods to carry out calulations that they had been unable to do. \\
 \newline
-The question was, what was the number $n_d$ of degree $d$ curves (up to homology class) on the quintic threefold $X \defeq \{{x_0}^5 + {x_1}^5 + {x_2}^5 + {x_3}^5 + {x_4}^5 = 0\} \subset \PP^4$? Mathematicians had only been able to work out $n_d$ for $d <4 $ and were unsure whether the number was even finite for higher $d$. In \cite{mirrorsym}, physicists computed $n_d$ for $d < 11$, with the first three numbers matching those the mathematicians had worked out. The physicists' techniques seemed like magic to the mathematicians, and the study of their work since then has resulted in a plethora of new and interesting mathematics. \\
+The question was, what was the number $n_d$ of degree $d$ curves on the quintic threefold $X \defeq \{{x_0}^5 + {x_1}^5 + {x_2}^5 + {x_3}^5 + {x_4}^5 = 0\} \subset \PP^4$? Mathematicians had only been able to work out $n_d$ for $d <4 $ and were unsure whether the number was even finite for higher $d$. In \cite{mirrorsym}, physicists computed $n_d$ for $d < 11$, with the first three numbers matching those the mathematicians had worked out. The physicists' techniques seemed like magic to the mathematicians, and the study of their work since then has resulted in a plethora of new and interesting mathematics. \\
 \newline 
-The rough physics is as follows. Given a Calabi-Yau manifold $(X,J,\omega)$\footnote{The $J:TX \to TX$ here is an almost complex structure on the manifold $X$. This introduces a multiplication by $i$ to tangent spaces of $X$ $(J^2 = -Id)$. $\omega$ is a symplectic form, which is a non-degenerate 2-form. We require $\omega$ to be compatible with $J$ (in which case we call $\omega$ a Kähler form) and the Calabi-Yau condition means that \textit{canonical bundle} of $X$ is trivial. In the physics literature it appears as though they impose the Calabi-Yau condition for `renormalisation' purposes.} (we sometimes just write $X$ for short), string theory constructs a (2,2) \textit{super conformal field theory} (SCFT) which is a quantum field theory (QFT). This construction was first introduced in \cite[Section 6]{scft} in 1960. It is called a string theory because point particles in $X$ are replaced with 1-real-dimensional strings in $X$. As the strings propagate, they trace out 2-dimensional surfaces, which is what one of the 2s in (2,2) refers to\footnote{The conformal part of the theory refers to these surfaces being Riemann surfaces.}. The other 2 refers to having two $U(1)$ actions on Hilbert space\footnote{A QFT will have a space of states called the Hilbert space, and an action which integrates a Lagrangian over all possible paths.} of states $H_X$. Applying an automorphism to the group acting $U(1) \times U(1)$ constructs a ‘different' but ‘isomorphic' (2,2) SCFT. We call two SCFTs related in this way \textit{mirror symmetric}.
+The rough physics is as follows. Given a Calabi-Yau manifold $(X,J,\omega)$\footnote{The $J:TX \to TX$ here is an almost complex structure on the manifold $X$. This introduces a multiplication by $i$ to tangent spaces of $X$ $(J^2 = -Id)$. $\omega$ is a symplectic form, which is a non-degenerate 2-form. We require $\omega$ to be compatible with $J$ (in which case we call $\omega$ a Kähler form) and the Calabi-Yau condition means that \textit{canonical bundle} of $X$ is trivial.} (we sometimes just write $X$ for short), string theory constructs a $\mathcal{N}=(2,2)$ \textit{super conformal field theory} (SCFT). This construction was first introduced in \cite[Section 6]{scft} in 1960. It is called a string theory because point particles in $X$ are replaced with 1-real-dimensional strings in $X$. As the strings propagate, they trace out 2-dimensional surfaces. $\mathcal{N}=(2,2)$ is short-hand for the supersymmetry algebra which acts on our SCFT. Applying an automorphism to the supersymmetry algebra somehow constructs a ‘different' but ‘isomorphic' $\mathcal{N}=(2,2)$ SCFT. We call two SCFTs related in this way \textit{mirror symmetric}.
 \begin{conjecture}[Physics mirror symmetry]
 Given a Calabi-Yau threefold $(X, J, \omega)$ there exists
-another Calabi-Yau threefold $(X^{v}, J^{v}, \omega^{v})$ whose corresponding (2,2) SCFT is mirror symmetric to that of $(X, J, \omega)$. We call $(X^{v}, J^{v}, \omega^{v})$ mirror to $(X, J, \omega)$.
+another Calabi-Yau threefold $(X^{v}, J^{v}, \omega^{v})$ whose corresponding $\mathcal{N}=(2,2)$ SCFT is mirror symmetric to that of $(X, J, \omega)$. We call $(X^{v}, J^{v}, \omega^{v})$ mirror to $(X, J, \omega)$.
 \end{conjecture}
 \noindent
 This is not a precise mathematical conjecture as the mathematical language to define and relate QFTs is not rigorous: for example, it is not clear what \textit{isomorphic} SCFT really means mathematically. We are also far from knowing how to construct mirrors in general, however there are some constructions such as the SYZ mirror conjecture \cite{syz}. In simple cases, such as for toric varieties, there are proven recipes for the mirror constructions called \textit{Hori-Vafa} mirrors \cite{horivafa}. This will be the context of this report and we will discuss toric mirror symmetry in more detail later on. \\
 \newline
 Though imprecise as stated, the physics mirror symmetry conjecture  implies some actual mathematical relationships between $(X, J, \omega)$ and a mirror $(X^{v}, J^{v}, \omega^{v})$. The most classical one of these is a Hodge-theoretic claim about the Dolbeaut cohomology groups of the manifolds. A more modern statement that is a big area of active research right now is the homological mirror symmetry conjecture, which relates some puzzlingly different categories of $X$ and $X^v$. This was first presented by Maxim Kontsevich at the 1994 International Congress of Mathematicians. The categories are called the Fukaya category and the derived category, the former depending only on the symplectic structure and the latter depending only on the complex structure. \\
 \newline
-The way this relates to the physics mirror symmetry is the following. Given a SCFT coming from $(X,J,\omega)$ one can construct an associate A-model and B-model via \textit{topological twisting}, where the A-model depends only on the symplectic structure and the B-model depends only on the complex structure. If we consider open strings, then what the strings attach to are objects called ‘branes’. In the A-model, these branes are Lagrangian submanifolds\footnote{A half dimensional submanifold $L \subset X$ is Lagrangian if $\omega|_{L} =0$.}, while in the B-model, they are algebraic subvarieites. Via this perspective it is in understood that the information of a \textit{triangulated category} \footnote{A triangulated category $\mathcal{A}$ is an additive category with a shift functor $T:\mathcal{A} \to \mathcal{A}$, and a set of \textit{distinguished triangles} $A \to B \to C \to T(A) $, $A,B,C \in \mathcal{A}$, which satisfy some conditions, see \cite[Chapter 1]{huybrechts} } is carried in both models. For the A-model this is called the Fukaya Category, denoted $\text{Fuk}(X)$, and for the B-model, this is called the derived category, denoted $D^b(X)$. Very roughly, the objects and morphisms in these categories are the following:
+The way this relates to the physics mirror symmetry is the following. Given a SCFT coming from $(X,J,\omega)$ one can construct an associate A-model and B-model via \textit{topological twisting}, where the A-model depends only on the symplectic structure and the B-model depends only on the complex structure. If we consider open strings, then what the strings attach to are objects called ‘branes’. In the A-model, these branes are Lagrangian submanifolds (with local systems)\footnote{A half dimensional submanifold $L \subset X$ is Lagrangian if $\omega|_{L} =0$.}, while in the B-model, they are algebraic subvarieties. Via this perspective it is understood that the data of a \textit{triangulated category}\footnote{A triangulated category $\mathcal{A}$ is an additive category with a shift functor $T:\mathcal{A} \to \mathcal{A}$, and a set of \textit{distinguished triangles} $A \to B \to C \to T(A) $, $A,B,C \in \mathcal{A}$, which satisfy some conditions, see \cite[Chapter 1]{huybrechts} } is carried in both models. For the A-model this is called the Fukaya Category, denoted $\text{Fuk}(X)$, and for the B-model, this is called the derived category, denoted $D^b(X)$. Very roughly, the objects and morphisms in these categories are the following:
 \begin{align*}
     \text{Ob}(\text{Fuk}(X)) =& \text{Chain complexes of Langrangian submanifolds }L \subset X. \\
     \text{Hom}_{\text{Fuk}(X)}(L,L') =& \text{A chain complex made from free linear combinations of} \\
@@ -103,19 +108,19 @@ Given this, if we simply start with a \textit{complex geometry}\footnote{We are 
 D^b(X) \cong \text{Fuk}(X^{v})
 \label{HMS}
 \end{equation}
-From now on, we will call an $X^v$ that satisfies \eqref{HMS} a mirror to $X$. It turns out we have a whole family of mirrors, each of whom is symplectomorphic to $X^v$, but has a different complex structure. We call the \textcolor{DarkBlue}{\textbf{Stringy Kähler moduli space}} the complex structure moduli space $\mathcal{M}_{\text{SKMS}}$ of the symplectic manifold $X^v$.\\
+From now on, we will call an $X^v$ that satisfies \eqref{HMS} a mirror to $X$. Because we didn't specify the symplectic structure of $X$, we have a whole family of mirrors, each of which is symplectomorphic to $X^v$, but has a different complex structure. We denote the complex structure moduli space of the symplectic manifold $X^v$ by $\mathcal{M}_{\text{CS}}$. Likewise we can consider all the Kähler forms (symplectic structures) on $X$, and we call this moduli space \textit{the String Kähler Moduli Space} $\mathcal{M}_{\text{SKMS}}$\footnote{In $\mathcal{M}_{\text{SKMS}}$ of $X$ we include complexified Kahler forms and other birational models of $X$.}.\\
 \newline
-There is a monodromy action of $\pi_1(\mathcal{M}_{\text{SKMS}})$ on $X^v$ via symplectomorphism, and hence there is a monodromy action of $\pi_1(\mathcal{M}_{\text{SKMS}})$ on $\text{Fuk}(X^v)$ via autoequivalence. By mirror symmetry, the action of $\pi_1(\mathcal{M}_{\text{SKMS}})$ on $\text{Fuk}(X^v)$ carries to an action on $D^b(X)$ via autoequilvance.\\
+There is a monodromy action of $\pi_1(\mathcal{M}_{\text{SKMS}})$ on $D^b(X)$ via autoequivalence, which is the B-side `brane monodromy'. There is also a monodromy action of $\pi_1(\mathcal{M}_{\text{CS}})$ on $\text{Fuk}(X^v)$ via autoequivalence, which is the A-side `brane monodromy'. The homological mirror symmetry conjecture implies $\mathcal{M}_{\text{CS}} \cong \mathcal{M}_{\text{SKMS}}$. Since it's easier to understand $\mathcal{M}_{\text{CS}}$ rather than $\mathcal{M}_{\text{SKMS}}$, we will study how the A-side brane monodromy carries over to the B-side. \\
 \newline
-The way this action should carry over is not clear. This is because mirror symmetry proofs don't necessarily give explicit mirror maps that we can use. The main objective of this report is to make sense of a conjecture on how this action carries over in a specific context, which is \textbf{toric Calabi Yau  Geometric Invariant Theory (GIT)}. The reason we work in this context is threefold: firstly, toric geometry is combinatorial and allows for the construction of informative yet hands-on examples; secondly, we have a heuristic recipe for $\mathcal{M}_{\text{SKMS}}$ as a parameter space called the Fayet-Iliopoulos parameter space ($FIPS$); and lastly, the GIT context provides for us interesting autoequivalences.\\
+The way this action should carry over is not clear entirely. This is because mirror symmetry proofs don't necessarily give explicit mirror maps that we can use. The main objective of this report is to make sense of a conjecture on how this action carries over in a specific context, which is \textbf{toric Calabi Yau  Geometric Invariant Theory (GIT)}. The reason we work in this context is threefold: firstly, toric geometry is combinatorial and allows for the construction of informative yet hands-on examples; secondly, we have a heuristic recipe a parameter space called the Fayet-Iliopoulos parameter space ($FIPS$), which is closely related to $\mathcal{M}_{\text{CS}}$; and lastly, the GIT context provides us with interesting autoequivalences, which come from so called \textit{spherical functors}.\\
 \newline
-Toric GIT is a theory of how to take quotients when you have an algebraic torus $T \cong (\CC^*)^r$ acting on a vector space $V\cong \CC^n$. It turns out that to get something nice, you need to remove a certain zero locus from $V$ before taking the naive topological quotient. It also turns out that this process is not unique and depends on a \textit{stability condition}, which is just a choice of character $\theta: T \to \CC^*$. Different characters will tell you to remove different loci, and therefore give birational but not normally isomorphic quotients. We denote the quotient corresponding to stability condition $\theta$ by $X_{\theta}=V //_{\theta} T$. We call the locus we remove \textit{the unstable locus}. We will explain in more detail how a stability condition determines an unstable locus in Section \ref{GIT}. By some representation theory, any character $\theta: T \to \CC^*$ is of the following form
+Toric GIT is a theory of how to take quotients when you have an algebraic torus $T \cong (\CC^*)^r$ acting on a vector space $V\cong \CC^n$. It turns out that to get something nice, you need to remove a certain zero locus from $V$ before taking the naive topological quotient. It also turns out that this process is not unique and depends on a \textit{stability condition}, which is just a choice of character $\theta: T \to \CC^*$. Different characters will tell you to remove different loci, and therefore give birational but not isomorphic quotients (in general). We denote the quotient corresponding to stability condition $\theta$ by $X_{\theta}=V \sslash_{\theta} T$. We call the locus we remove \textit{the unstable locus}. We will explain in more detail how a stability condition determines an unstable locus in Section \ref{GIT}. By some representation theory, any character $\theta: T \to \CC^*$ is of the following form
 $$
 \theta(\lambda_1, \dots, \lambda_r) = {\lambda_1}^{\theta_1} \dots {\lambda_r}^{\theta_r} 
 $$
-where $(\theta_1, \dots, \theta_r) \in \Z^r$. So we can think of the characters as living in a rank $r$ lattice $L^v$, called \textit{the character lattice}. \\
+where $(\theta_1, \dots, \theta_r) \in \Z^r$. So the characters live in a rank $r$ lattice $L^v$, called \textit{the character lattice}. \\
 \newline
-It turns out that the $L^v$ splits into positive cones where any two stability conditions lying in the interior of the same cone have the same unstable locus. The top dimensional cones are good quotients in the sense that they are smooth Deligne-Mumford stacks (these are analogues of orbifolds in differential geometry). The GIT quotients corresponding to the top dimensional cones are therefore the ones we mean when we discuss the collection of GIT quotients. We call the decomposition of $L^v$ \textit{a wall and chamber decomposition}, where note two GIT quotients are said to lie on the same wall if their cones share a codimension 1 face.\\
+The character lattice $L^v$ splits into positive cones where any two stability conditions lying in the interior of the same cone have the same unstable locus. The top dimensional cones correspond to good quotients in the sense that they are smooth Deligne-Mumford stacks (the stabilisers are finite groups). The GIT quotients corresponding to the top dimensional cones are therefore the ones we mean when we discuss the collection of GIT quotients. We call the decomposition of $L^v$ \textit{a wall and chamber decomposition}, where note two GIT quotients are said to separated by a wall if their cones share a codimension 1 face.\\
 \newline
 We note that the wall and chamber decomposition of $L^v$ gives us the data of a toric fan, which we call \textit{the secondary toric fan}. The geometric realisation of this fan is a toric variety $\Fs$ which we call the \textit{secondary toric variety}. By toric orbit-cone correspondence, fixed points in $\Fs$ under the dual torus $T^v$ action correspond to GIT quotients.  \\
 \newline
@@ -123,24 +128,24 @@ Let us consider a wall $W$ in the secondary fan separating two GIT quotients $X$
 $$
 D^b(X) = \langle D^b(X'), D^b(Z),...,D^b(Z) \rangle_{SOD}
 $$
-where $Z$ is the $T$-quotient of the fixed locus of the action of the one-parameter familly perpendicular to the wall, and the number of copies of $Z$ can be easily computed combinatorially\footnote{In fact, $Z$ comes from a GIT problem called a \textit{Higgs GIT problem}, whose data is a subset of the data of our original GIT problem. We will explain this in more detail in Section \ref{wallcrossing}.}. We call $X'$ \textit{minimal} with respect to $X$, and $X$ \textit{maximal} with respect to $X'$. \\
+where $Z$ is the $T$-quotient of the fixed locus of the action of the one-parameter familly perpendicular to the wall, and the number of copies of $Z$ can be easily computed combinatorially\footnote{In fact, $Z$ comes from a GIT problem called a \textit{Higgs GIT problem}, whose data is a subset of the data of our original GIT problem. We will explain this in more detail in Section \ref{wallcrossing}.}. We may call $X'$ \textit{minimal} with respect to $X$, and $X$ \textit{maximal} with respect to $X'$. \\
 \newline
-A toric Calabi-Yau GIT problem is a toric GIT problem with an extra condition on the action of $T$ that ensures all the quotients are Calabi-Yau i.e. that they have trivial canonical bundle. It turns out that this ensures that whenever you wall cross the number of copies of $D^b(Z)$ is 0, so that all your GIT quotients are derived equivalent through wall crossing. If we fix a GIT quotient $X$, the wall-crossing through a wall $W$ actually gives us countably infinite derived equivalences between $X$ and the GIT quotient on the other side of the wall. Going through one equivalence and back through another produces a non-trivial autoequivalence of $D^b(X)$. For any wall we therefore have countable infinitely many non-trivial autoequivalences of $D^b(X)$. \\
+A toric Calabi-Yau GIT problem is a toric GIT problem where the sum of the weights is 0. This condition on the action of the torus $T$ that ensures all the quotients are Calabi-Yau i.e. that they have trivial canonical bundle. This ensures that whenever you wall cross the number of copies of $D^b(Z)$ is 0, so that all your GIT quotients are derived equivalent through wall crossing. If we fix a GIT quotient $X$, wall-crossing through a wall $W$ actually gives us countably-infinite derived equivalences between $X$ and the GIT quotient on the other side of the wall. Going through one equivalence and back through another produces a non-trivial autoequivalence of $D^b(X)$. For any wall we therefore have countably-infinitely-many non-trivial autoequivalences of $D^b(X)$. \\
 \newline
 Though the number of copies of $D^b(Z)$ in the SOD is 0, the toric variety $Z$ is still very important. For any wall $W$ and corresponding $Z$ we get a \textit{spherical functor}
 $$
 F : D^b(Z) \to D^b(X).
 $$
-This means that the \textit{spherical twist} $T_F: D^b(X) \to  D^b(X) $ is an autoequivalence. We will explain what $F$ and $T_F$ are in Section \ref{CY}. In \cite{gitauto}, Halpern-Leistner and Shipman proved that the autoequivalences coming from wall crossing give the autoequivalences coming from these spherical functors. \\
+This means that the \textit{spherical twist} $T_F: D^b(X) \to  D^b(X) $ is an autoequivalence. We will explain what $F$ and $T_F$ are in Section \ref{CY}. In \cite{gitauto}, Halpern-Leistner and Shipman proved that the autoequivalences coming from wall crossing are the same as those coming from these spherical functors. \\
 \newline
-Other than having a good understanding of lots of non-trivial autoequivalences of derived categories of Calabi-Yau toric GIT quotients, we also have another important tool which is that we have a recipe for the mirror. Consider a rank $r$ dimension $n$ toric Calabi-Yau GIT problem $T \cong (\CC^*)^r$ acting on $V \cong \CC^n$. Here, we don't just mirror one Calabi-Yau manifold like we described mirror symmetry earlier. We take our complex geometry to be the data of the entire GIT problem. The data of $T$ acting on $V$ determines a Gauged Linear Sigma Model, a particular kind of \textit{supersymmetric 2-dimensional QFT} (SQFT). The mirror is a \textit{Landau Ginzburg}\footnote{Given a Landau Ginzburg model, one can also build a SQFT.} model $(({\CC}^*)^{n-r}, W) $ where $W: ({\CC}^*)^{n-r} \to \CC$ is a Laurent polynomial called the \textit{superpotential}. This mirror symmetry was described by physicists Hori-Vafa \cite{horivafa}. The Landau Ginzburg model is a mirror in the homological sense via the equivalence of categories
+Other than having a good understanding of lots of non-trivial autoequivalences of derived categories of Calabi-Yau toric GIT quotients, we also have another important tool which is that we have a recipe for the mirror. Consider a rank $r$ dimension $n$ toric Calabi-Yau GIT problem $T \cong (\CC^*)^r$ acting on $V \cong \CC^n$. The data of $T$ acting on $V$ determines a Gauged Linear Sigma Model (GLSM), a particular kind of \textit{supersymmetric 2-dimensional QFT} (SQFT). The mirror is given by a \textit{Landau Ginzburg}\footnote{Given a Landau Ginzburg model, one can also build a SQFT.} model $(({\CC}^*)^{n-r}, W) $ where $W: ({\CC}^*)^{n-r} \to \CC$ is a Laurent polynomial called the \textit{superpotential}. This mirror symmetry was described by physicists Hori-Vafa \cite{horivafa} and a corresponding homological mirror symmetry statement has been proved mathematically. The Landau Ginzburg model is a mirror in the homological sense via the equivalence of categories
 \begin{equation*}
     D^b(X) \cong \text{FS}(({\CC}^*)^{n-r}, W)
 \end{equation*}
 where $X$ is a GIT quotient and by $\text{FS}$ we mean the \textit{Fukaya-Seidel Category}, or \textit{the Fukaya category with stops} \cite{seidelfukaya}.
 In fact we have a family of these mirror Landau Ginzburg models, which vary by choice of coefficients of the Laurent polynomial $W$. There's a combinatorial recipe to construct the parameter space over which the mirror Landau Ginzburg models live and we call this parameter space the Fayet-Iliopoulos parameter space ($FIPS$). It is the complement of the \textit{GKZ dicriminant locus} $\Delta$ of $W$ inside the dual torus $T^v$ \cite{gelfand1994discriminants}. This discriminant generalises the well-known discriminant of the quadratic to Laurent polynomials of any type in any number of variables, which we will explain in more detail in Section \ref{fips}. \\
 \newline 
-Hence we take our $\mathcal{M}_{\text{SKMS}}$ to be $FIPS$. It is interesting to think of $FIPS$ as living inside the secondary toric variety $\Fs$. Recall that there are points in the boundary of $\Fs$ that correspond to GIT quotients. This makes the $\Fs$ an interesting compactification of $FIPS$ because we can then see limiting regions of $FIPS$ that correspond to specific GIT quotients. We can consider the fundamental groupoid of $FIPS$ $\Pi_1(FIPS)$ with a base point for every limiting region. The conjecture is that a path from one quotient $X$ to another quotient $X'$ comes from a composition of wall-crossings (or spherical functor twists) and line bundle twists. Non-homotopic paths will correspond to different equivalences. \\
+An important remark is that $FIPS$ is not the same as $\mathcal{M}_{\text{CS}}$ or $\mathcal{M}_{\text{SKMS}}$, see Remark 2.8 in \cite{edwill} for an explanation of this. That said, there should be a map from $FIPS \to \mathcal{M}_{\text{CS}}$. Since $FIPS$ is the only thing we have a heuristic recipe for, we study a monodromy action of $FIPS$ on the derived categories of the GIT quotients. It is helpful to think of $FIPS$ as living inside the secondary toric variety $\Fs$. Recall that there are points in the boundary of $\Fs$ that correspond to GIT quotients. This makes the $\Fs$ an interesting compactification of $FIPS$ because we can then see limiting regions of $FIPS$ that correspond to specific GIT quotients. We can consider the fundamental groupoid of $FIPS$ $\Pi_1(FIPS)$ with a base point for every limiting region. The conjecture is that a path from one quotient $X$ to another quotient $X'$ acts on the set of derived categories of the GIT quotients via composition of wall-crossings (or spherical functor twists) and line bundle twists. Non-homotopic paths will correspond to different equivalences. \\
 \newline
 In Section \ref{FIPS} we will explain more details of the theory and put into plain sight how we exactly match the paths/loops in $\Pi_1(FIPS)$ to certain equivalences between the derived categories of the GIT quotients. Finally, in Section \ref{rank2example} we prove the conjecture for a rank 2 example. 
 
@@ -260,6 +265,46 @@ which we call \textit{Higgs GIT problem} associated to $\mathcal{T}$.
 We have a Higgs GIT problem associated to a wall $W$ by taking the subset of weights to be the weights lying on the wall. We denote this subset of weights $Q(W)$, and the GIT problem as $Q_W$. This gives a rank $r-1$, dimension $|Q(W) |$ toric GIT problem. $Z$ is a GIT quotient of this new GIT problem, where we choose the stability condition to be on the wall $W$. In fact, $Z$ is a quotient of the fixed locus of the action of $\lambda_W$ by the rest of the action of $T$.
 \subsection{Spherical Functors}
 \label{CY}
+The goal of this section will be to construct \textit{spherical functors} from the data of a toric \textit{Calabi-Yau} GIT problem. We start first by explaining some general theory about them. The first type of spherical functors that were studied were \textit{spherical objects}. Let $X$ be a smooth projective variety over a field $k$
+\begin{definition}\cite[Chapter 8]{huybrechts}
+    \label{sphericalobject}
+    An object $\Es^{\bullet} \in D^b(X)$ is called \textit{spherical} if 
+    \begin{enumerate}
+        \item $\Es^{\bullet} \otimes \omega_X \cong \Es^{\bullet}$ and,
+        \item \[
+        \text{Hom}_{D^b(X)}(\Es^{\bullet},\Es^{\bullet}[i]) \cong 
+        \begin{cases}
+            k & \text{if } i = 0, \text{dim}(X), \\
+            0 & \text{otherwise}.
+        \end{cases}
+        \]
+    \end{enumerate}
+\end{definition}
+These objects are called spherical because condition $(2)$ can be rephrased
+$$
+\text{Hom}_{D^b(X)}(\Es^{\bullet},\Es^{\bullet}[*]) \cong H^*(S^{\text{dim}(X)},k)
+$$,
+where $S^{\text{dim}(X)}$ denotes the $\text{dim}(X)$-dimensional sphere. We define the \textit{spherical twist} $T_{\Es^{\bullet}} : D^b(X) \to D^b(X)$ about a spherical object to be 
+
+Spherical twists about \textit{spherical functors} are generalisations of spherical twists about spherical objects. Our main reference for spherical functors is \cite[text]{spherical}. Consider an exact functor $F : \mathcal{A} \to \mathcal{B}$ between triangulated categories $\mathcal{A}$ and $\mathcal{B}$. with left and right adjoints $L, R : \mathcal{B} \to \mathcal{A}$. We define the \textit{twist} $T : \mathcal{B} \to \mathcal{B}$  to be the counit $FR \xrightarrow[]{\epsilon} \text{id}_\mathcal{B}$ of the adjuction, so that there is an exact triangle 
+\begin{equation}
+     FR \xrightarrow[]{\epsilon} \text{id}_\mathcal{B}\xrightarrow{} T,
+\end{equation}  
+and the \textit{cotwist} 
+\begin{equation}
+    \text{id}_\mathcal{A} \xrightarrow[]{\eta}  RF \xrightarrow{} C,
+\end{equation}  
+We say that $F$ is spherical if $C$ is an
+equivalence and $R \cong CL$.
+The upshot will be that the \textit{spherical twist} $T_F: D^b(X) \to D^b(X)$ of the spherical functor $F$:
+\begin{equation}
+    T_F \Es \defeq C \left( FR \Es \xrightarrow[]{\epsilon} \Es \right),
+\end{equation}   
+is an autoequivalence, where we take right adjoint $R : D^b(X) \to D^b(Z)$ to $F$, and $FR \xrightarrow[]{\epsilon} Id_{D^b(X_\theta)}$ is the counit of the adjunction \cite[Section 1]{spherical}. In \cite{gitauto}, Halpern-Leistner and Shipman proved that the autoequivalences coming from wall crossing give the autoequivalences coming from these spherical functors.
+
+Let us consider a rank $r$ torus $T$ acting on a $n$-dimensional vector space $V$Let $X$ and $X'$ be two GIT quotients separated by a wall $W$. We construct a \textit{spherical functor} $F : D^b(Z) \to D^b(X) $ from the GIT data.
+
+%%%%%%%%%
 Let us consider a rank $r$ torus $T$ acting on a $n$-dimensional vector space $V$, with GIT problem given by the complex
 $$
 0 \xrightarrow[]{} M \xrightarrow[]{A} \Z^n \xrightarrow[]{Q} L^v \xrightarrow[]{} 0.
@@ -298,7 +343,11 @@ where each $Z_i$ is a minimal GIT quotient for a Higgs problem of our original G
 \end{definition}
 A relevant subspace $H$ defines a Higgs GIT problem by considering the weights lying on $H$. These Higgs GIT problems will have a non-empty minimal phase $Z_H$. The important point is that $Z_H$ are precisely the factors $Z_0, \dots, Z_k$ in the SOD \eqref{Zsod} for $D^b(Z)$. In other words, the relevant subspaces $H$ index the irreducible factors.  \\
 \newline
-Let $X$ and $X'$ be two GIT quotients separated by a wall $W$. We construct a \textit{spherical functor} $F : D^b(Z) \to D^b(X) $ from the GIT data. The upshot will be that the \textit{spherical twist} $T_F: D^b(X) \to D^b(X)$ of the spherical functor $F$:
+Let $X$ and $X'$ be two GIT quotients separated by a wall $W$. We construct a \textit{spherical functor} $F : D^b(Z) \to D^b(X) $ from the GIT data. An exact functor $F : \mathcal{T} \to \mathcal{T}'$ between triangulated categories is called a spherical functor is the cone on the unit is an   
+
+
+
+The upshot will be that the \textit{spherical twist} $T_F: D^b(X) \to D^b(X)$ of the spherical functor $F$:
 \begin{equation}
     T_F \Es \defeq C \left( FR \Es \xrightarrow[]{\epsilon} \Es \right),
 \end{equation}   
@@ -307,7 +356,7 @@ is an autoequivalence, where we take right adjoint $R : D^b(X) \to D^b(Z)$ to $F
 \newline
 So how is the spherical functor $F$ defined? In Section \ref{GIT} we presented a method to analyse the stability of points in a toric GIT problem. An equivalent and more general method is the \textit{Hilbert-Mumford Criterion}, which essentially says it's enough to analyse the stability of points in the GIT problems coming from one-parameter subgroups \cite{mumford}. A point will then be (semi-)stable if it is (semi-)stable for all one-parameter subgroups. In practice in toric GIT problems we only need to consider a finite number of one-parameter subgroups. \\
 \newline
-We now note that the stability condition for $X$ and $X'$ only differ by one parameter subgroup $\lambda_W$ normal to the wall. This means only one irreducible component of the unstable for points will different. We look at the component that we remove to obtain $X'$ and see it as a subset of $X$. We denote it $Y$. $Y$ projects onto $Z$
+We now note that the stability condition for $X$ and $X'$ only differ by one parameter subgroup $\lambda_W$ normal to the wall. This means only one irreducible component of the unstable for points will different. We look at the component that we remove to obtain $X'$ and see it as a subset of $X$. We denote it $Y$. $Y$ is a bundle over $Z$ by \cite{bialynick} so we have maps
 \begin{center}
 \begin{tikzcd}
   Y \arrow[d,"\pi"] \arrow[r, "i"] & X \\
@@ -838,6 +887,8 @@ $$
 T_{\Os_{\PP^1}}\Os_{\PP^1}(1,0) = C({\Os_{\PP^1}}^2 \to \Os_{\PP^1}(1,0)) =\Os_{\PP^1}(-1,0).
 $$
 This is relation \eqref{rel2}.
+
+\section{Future research}
 
 \bibliographystyle{abbrv}
 \bibliography{mybib.bib}

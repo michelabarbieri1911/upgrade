@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  22 FEB 2024 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  23 FEB 2024 12:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -100,8 +100,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 \thm@postskip=\skip55
 \thm@headsep=\skip56
 \dth@everypar=\toks25
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2021/03/18 v1.25 mathematical typesetting tools
  (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
@@ -401,28 +407,30 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 61.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count305
 \scratchdimen=\dimen280
@@ -449,370 +457,383 @@ Package caption Info: End \AtBeginDocument code.
 
 
 
-Class amsart Warning: Abstract should precede \maketitle in AMS document classes; reported on input line 60.
+Class amsart Warning: Abstract should precede \maketitle in AMS document classes; reported on input line 65.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--78
 
  []
 
 [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (2.38191pt too wide) in paragraph at lines 74--76
+Overfull \hbox (2.38191pt too wide) in paragraph at lines 79--81
 []\OT1/cmr/bx/n/10 Conjecture 1.1 \OT1/cmr/m/n/10 (Physics mir-ror sym-me-try)\OT1/cmr/bx/n/10 . []\OT1/cmr/m/n/10 Given a Calabi-Yau three-fold $(\OML/cmm/m/it/10 X; J; !\OT1/cmr/m/n/10 )$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--83
+Underfull \hbox (badness 10000) in paragraph at lines 82--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--83
+Underfull \hbox (badness 10000) in paragraph at lines 82--88
 
  []
 
 [2]
-Overfull \hbox (16.3758pt too wide) detected at line 95
+Overfull \hbox (16.3758pt too wide) detected at line 100
 []
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 105--113
+Underfull \hbox (badness 10000) in paragraph at lines 110--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--113
+Underfull \hbox (badness 10000) in paragraph at lines 110--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--113
+Underfull \hbox (badness 10000) in paragraph at lines 110--118
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 115--123
+Underfull \hbox (badness 10000) in paragraph at lines 120--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--123
+Underfull \hbox (badness 10000) in paragraph at lines 120--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--123
+Underfull \hbox (badness 10000) in paragraph at lines 120--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--131
+Underfull \hbox (badness 10000) in paragraph at lines 130--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--131
+Underfull \hbox (badness 10000) in paragraph at lines 130--136
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 133--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--151
 
  []
 
 [6]
-<git/orbits of P1.png, id=42, 730.73pt x 599.23875pt>
+<git/orbits of P1.png, id=43, 730.73pt x 599.23875pt>
 File: git/orbits of P1.png Graphic file (type png)
 <use git/orbits of P1.png>
-Package pdftex.def Info: git/orbits of P1.png  used on input line 161.
+Package pdftex.def Info: git/orbits of P1.png  used on input line 166.
 (pdftex.def)             Requested size: 142.26378pt x 116.66364pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--169
+Underfull \hbox (badness 10000) in paragraph at lines 170--174
 
  []
 
 [7] [8 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/orbits of P1.png>]
-<git/diffquotients.png, id=54, 502.87875pt x 112.42pt>
+<git/diffquotients.png, id=55, 502.87875pt x 112.42pt>
 File: git/diffquotients.png Graphic file (type png)
 <use git/diffquotients.png>
-Package pdftex.def Info: git/diffquotients.png  used on input line 212.
+Package pdftex.def Info: git/diffquotients.png  used on input line 217.
 (pdftex.def)             Requested size: 227.62204pt x 50.88528pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--233
-
- []
-
-[9 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/diffquotients.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 241--245
-
- []
-
-[10]
-Overfull \hbox (7.75482pt too wide) in paragraph at lines 263--264
- \OT1/cmr/m/n/10 2.3.\OT1/cmr/bx/n/10 Spherical Func-tors.[] \OT1/cmr/m/n/10 Let us con-sider a rank $\OML/cmm/m/it/10 r$ \OT1/cmr/m/n/10 torus $\OML/cmm/m/it/10 T$ \OT1/cmr/m/n/10 act-ing on a $\OML/cmm/m/it/10 n$\OT1/cmr/m/n/10 -dimensional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--287
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 299--302
+ [9 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/git/diffquotients.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 231--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--311
+Underfull \hbox (badness 10000) in paragraph at lines 246--250
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--311
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 328--332
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 317--320
+Underfull \hbox (badness 10000) in paragraph at lines 344--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--333
+Underfull \hbox (badness 10000) in paragraph at lines 353--360
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--348
+Underfull \hbox (badness 10000) in paragraph at lines 353--360
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 351--355
+Underfull \hbox (badness 10000) in paragraph at lines 366--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--367
+Underfull \hbox (badness 10000) in paragraph at lines 379--382
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 394--397
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--367
+Underfull \hbox (badness 10000) in paragraph at lines 400--404
 
  []
 
-[14] [15]
-<face&subspace/primary.png, id=80, 242.9075pt x 149.55875pt>
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 410--416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--416
+
+ []
+
+[16]
+<face&subspace/primary.png, id=84, 242.9075pt x 149.55875pt>
 File: face&subspace/primary.png Graphic file (type png)
 <use face&subspace/primary.png>
-Package pdftex.def Info: face&subspace/primary.png  used on input line 444.
+Package pdftex.def Info: face&subspace/primary.png  used on input line 493.
 (pdftex.def)             Requested size: 142.26378pt x 87.59077pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 455--461
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 504--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--461
+Underfull \hbox (badness 10000) in paragraph at lines 504--510
 
  []
 
-[17 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/primary.png>]
-Overfull \hbox (16.21698pt too wide) in paragraph at lines 466--467
+[18 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/primary.png>]
+Overfull \hbox (16.21698pt too wide) in paragraph at lines 515--516
 \OT1/cmr/m/n/10 should cor-re-spond to a spher-i-cal twist about a spher-i-cal func-tor $\OML/cmm/m/it/10 F[] \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 D[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Z[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 !
  []
 
-<face&subspace/secondary.png, id=88, 400.49625pt x 114.4275pt>
+<face&subspace/secondary.png, id=92, 400.49625pt x 114.4275pt>
 File: face&subspace/secondary.png Graphic file (type png)
 <use face&subspace/secondary.png>
-Package pdftex.def Info: face&subspace/secondary.png  used on input line 479.
+Package pdftex.def Info: face&subspace/secondary.png  used on input line 528.
 (pdftex.def)             Requested size: 170.71652pt x 48.77682pt.
-[18 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/secondary.png>]
-<rank2exmp/secondaryfan1.png, id=93, 450.68375pt x 352.31625pt>
+[19 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/face&subspace/secondary.png>]
+<rank2exmp/secondaryfan1.png, id=98, 450.68375pt x 352.31625pt>
 File: rank2exmp/secondaryfan1.png Graphic file (type png)
 <use rank2exmp/secondaryfan1.png>
-Package pdftex.def Info: rank2exmp/secondaryfan1.png  used on input line 523.
+Package pdftex.def Info: rank2exmp/secondaryfan1.png  used on input line 572.
 (pdftex.def)             Requested size: 227.62204pt x 177.94249pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--529
+Underfull \hbox (badness 10000) in paragraph at lines 568--578
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19]
-<rank2exmp/primarypolygon1.png, id=98, 428.60126pt x 406.51875pt>
+[20]
+Underfull \vbox (badness 1742) has occurred while \output is active []
+
+ [21 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondaryfan1.png>]
+<rank2exmp/primarypolygon1.png, id=106, 428.60126pt x 406.51875pt>
 File: rank2exmp/primarypolygon1.png Graphic file (type png)
 <use rank2exmp/primarypolygon1.png>
-Package pdftex.def Info: rank2exmp/primarypolygon1.png  used on input line 560.
+Package pdftex.def Info: rank2exmp/primarypolygon1.png  used on input line 609.
 (pdftex.def)             Requested size: 144.00055pt x 136.58316pt.
-<rank2exmp/toricfans1.png, id=99, 485.815pt x 368.37625pt>
+<rank2exmp/toricfans1.png, id=107, 485.815pt x 368.37625pt>
 File: rank2exmp/toricfans1.png Graphic file (type png)
 <use rank2exmp/toricfans1.png>
-Package pdftex.def Info: rank2exmp/toricfans1.png  used on input line 566.
+Package pdftex.def Info: rank2exmp/toricfans1.png  used on input line 615.
 (pdftex.def)             Requested size: 144.00055pt x 109.18716pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--574
+Underfull \hbox (badness 10000) in paragraph at lines 600--623
 
  []
 
-[20 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondaryfan1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 580--584
+
+Underfull \hbox (badness 10000) in paragraph at lines 629--633
 
  []
 
-Excluding 'comment' comment. [21 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/primarypolygon1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/toricfans1.png>]
-<rank2exmp/secondarypolytope.png, id=110, 499.8675pt x 366.36874pt>
+[22 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/primarypolygon1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/toricfans1.png>] Excluding 'comment' comment.
+<rank2exmp/secondarypolytope.png, id=114, 499.8675pt x 366.36874pt>
 File: rank2exmp/secondarypolytope.png Graphic file (type png)
 <use rank2exmp/secondarypolytope.png>
-Package pdftex.def Info: rank2exmp/secondarypolytope.png  used on input line 626.
+Package pdftex.def Info: rank2exmp/secondarypolytope.png  used on input line 675.
 (pdftex.def)             Requested size: 227.62204pt x 166.8322pt.
- [22 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondarypolytope.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 633--641
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 682--690
 
  []
 
 
-Overfull \hbox (11.42517pt too wide) in paragraph at lines 633--641
+Overfull \hbox (11.42517pt too wide) in paragraph at lines 682--690
 \OT1/cmr/m/n/10 In line with this we will scale out $\OML/cmm/m/it/10 d$ \OT1/cmr/m/n/10 and now think of $\OML/cmm/m/it/10 FIPS$ \OT1/cmr/m/n/10 as $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--641
+Underfull \hbox (badness 10000) in paragraph at lines 682--690
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--641
+Underfull \hbox (badness 10000) in paragraph at lines 682--690
 
  []
 
-[23]
-<rank2exmp/FIPS1.png, id=118, 389.455pt x 295.1025pt>
+[23] [24 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/secondarypolytope.png>]
+<rank2exmp/FIPS1.png, id=122, 389.455pt x 295.1025pt>
 File: rank2exmp/FIPS1.png Graphic file (type png)
 <use rank2exmp/FIPS1.png>
-Package pdftex.def Info: rank2exmp/FIPS1.png  used on input line 663.
+Package pdftex.def Info: rank2exmp/FIPS1.png  used on input line 712.
 (pdftex.def)             Requested size: 227.62204pt x 172.4744pt.
-<rank2exmp/projection1.png, id=119, 421.575pt x 273.02pt>
+<rank2exmp/projection1.png, id=123, 421.575pt x 273.02pt>
 File: rank2exmp/projection1.png Graphic file (type png)
 <use rank2exmp/projection1.png>
-Package pdftex.def Info: rank2exmp/projection1.png  used on input line 672.
+Package pdftex.def Info: rank2exmp/projection1.png  used on input line 721.
 (pdftex.def)             Requested size: 227.62204pt x 147.4161pt.
-<rank2exmp/zariski1.png, id=120, 465.74pt x 365.365pt>
+<rank2exmp/zariski1.png, id=124, 465.74pt x 365.365pt>
 File: rank2exmp/zariski1.png Graphic file (type png)
 <use rank2exmp/zariski1.png>
-Package pdftex.def Info: rank2exmp/zariski1.png  used on input line 679.
+Package pdftex.def Info: rank2exmp/zariski1.png  used on input line 728.
 (pdftex.def)             Requested size: 341.43306pt x 267.8571pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--684
+Underfull \hbox (badness 10000) in paragraph at lines 703--733
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--684
+Underfull \hbox (badness 10000) in paragraph at lines 703--733
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--684
+Underfull \hbox (badness 10000) in paragraph at lines 703--733
 
  []
 
-[24 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/FIPS1.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/projection1.png>]
-<rank2exmp/exmp1tau.png, id=130, 625.33624pt x 289.08pt>
+[25]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/FIPS1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/projection1.png>] [27 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/zariski1.png>]
+<rank2exmp/exmp1tau.png, id=138, 625.33624pt x 289.08pt>
 File: rank2exmp/exmp1tau.png Graphic file (type png)
 <use rank2exmp/exmp1tau.png>
-Package pdftex.def Info: rank2exmp/exmp1tau.png  used on input line 698.
+Package pdftex.def Info: rank2exmp/exmp1tau.png  used on input line 747.
 (pdftex.def)             Requested size: 341.43306pt x 157.8388pt.
-<rank2exmp/sigma1.png, id=131, 692.5875pt x 282.05376pt>
+<rank2exmp/sigma1.png, id=139, 692.5875pt x 282.05376pt>
 File: rank2exmp/sigma1.png Graphic file (type png)
 <use rank2exmp/sigma1.png>
-Package pdftex.def Info: rank2exmp/sigma1.png  used on input line 705.
+Package pdftex.def Info: rank2exmp/sigma1.png  used on input line 754.
 (pdftex.def)             Requested size: 341.43306pt x 139.05109pt.
-<rank2exmp/braidaction1.png, id=132, 408.52625pt x 305.14pt>
+<rank2exmp/braidaction1.png, id=140, 408.52625pt x 305.14pt>
 File: rank2exmp/braidaction1.png Graphic file (type png)
 <use rank2exmp/braidaction1.png>
-Package pdftex.def Info: rank2exmp/braidaction1.png  used on input line 712.
+Package pdftex.def Info: rank2exmp/braidaction1.png  used on input line 761.
 (pdftex.def)             Requested size: 227.62204pt x 170.02051pt.
-<rank2exmp/B3.png, id=133, 1328.965pt x 606.265pt>
+<rank2exmp/B3.png, id=141, 1328.965pt x 606.265pt>
 File: rank2exmp/B3.png Graphic file (type png)
 <use rank2exmp/B3.png>
-Package pdftex.def Info: rank2exmp/B3.png  used on input line 719.
+Package pdftex.def Info: rank2exmp/B3.png  used on input line 768.
 (pdftex.def)             Requested size: 227.62204pt x 103.8315pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--725
+Underfull \hbox (badness 10000) in paragraph at lines 741--774
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--725
+Underfull \hbox (badness 10000) in paragraph at lines 741--774
 
  []
 
-[26 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/zariski1.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/exmp1tau.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/sigma1.png>]
-<rank2exmp/braidgenerators.png, id=143, 751.80875pt x 306.14375pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/exmp1tau.png>]
+Overfull \vbox (18.82285pt too high) has occurred while \output is active []
+
+ [29 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/sigma1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidaction1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/B3.png>]
+<rank2exmp/braidgenerators.png, id=152, 751.80875pt x 306.14375pt>
 File: rank2exmp/braidgenerators.png Graphic file (type png)
 <use rank2exmp/braidgenerators.png>
-Package pdftex.def Info: rank2exmp/braidgenerators.png  used on input line 738.
+Package pdftex.def Info: rank2exmp/braidgenerators.png  used on input line 787.
 (pdftex.def)             Requested size: 398.33858pt x 162.2087pt.
 
-Overfull \hbox (38.33858pt too wide) in paragraph at lines 738--739
+Overfull \hbox (38.33858pt too wide) in paragraph at lines 787--788
  [][] 
  []
 
-[28 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidaction1.png> </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/B3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 747--751
+
+Underfull \hbox (badness 10000) in paragraph at lines 796--800
 
  []
 
-[29 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidgenerators.png>] [30] [31] (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.bbl) [32] (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux) ) 
+[30 </Users/Barbieri/Desktop/LSGNT Year 3/upgrade/rank2exmp/braidgenerators.png>] [31] [32] (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.bbl [33]) [34] (/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux) ) 
 Here is how much of TeX's memory you used:
- 16384 strings out of 478994
- 331705 string characters out of 5858184
- 602305 words of memory out of 5000000
- 33420 multiletter control sequences out of 15000+600000
- 410437 words of font info for 54 fonts, out of 8000000 for 9000
+ 16646 strings out of 478994
+ 334756 string characters out of 5858184
+ 604415 words of memory out of 5000000
+ 33669 multiletter control sequences out of 15000+600000
+ 411457 words of font info for 59 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 127i,14n,130p,2077b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf" (32 pages, 1664923 bytes).
+ 127i,14n,130p,2077b,994s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
+Output written on "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf" (34 pages, 1672671 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 250 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

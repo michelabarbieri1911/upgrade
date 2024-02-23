@@ -4,6 +4,7 @@
 \contentsline {subsection}{\tocsubsection {}{2.1}{General Toric Geometric Invariant Theory}}{7}{}%
 \contentsline {subsection}{\tocsubsection {}{2.2}{Wall-Crossing Formula}}{10}{}%
 \contentsline {subsection}{\tocsubsection {}{2.3}{Spherical Functors}}{11}{}%
-\contentsline {subsection}{\tocsubsection {}{2.4}{FIPS}}{13}{}%
-\contentsline {section}{\tocsection {}{3}{Rank 2 Example}}{19}{}%
-\contentsline {section}{\tocsection {}{}{References}}{32}{}%
+\contentsline {subsection}{\tocsubsection {}{2.4}{FIPS}}{15}{}%
+\contentsline {section}{\tocsection {}{3}{Rank 2 Example}}{20}{}%
+\contentsline {section}{\tocsection {}{4}{Future research}}{33}{}%
+\contentsline {section}{\tocsection {}{}{References}}{33}{}%

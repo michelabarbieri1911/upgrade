@@ -93,6 +93,17 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -534,6 +545,13 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/stmaryrd/stmary8.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/stmaryrd/stmary6.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/stmaryrd/stmary5.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -566,6 +584,8 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT /Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf
@@ -681,3 +701,4 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msa
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb
