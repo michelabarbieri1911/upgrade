@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1708952432 "main.aux" "main.bbl" "main" 1708952448
+["bibtex main"] 1708952587 "main.aux" "main.bbl" "main" 1708952591
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "main.aux" 1708952436 11557 93754f5ed2d3a60c436b62052e9a8992 "pdflatex"
+  "main.aux" 1708952591 11615 5146dde4f456340bade7def68820ac70 "pdflatex"
   "mybib.bib" 1708787532 5686 044d7ece3acd4d4628e5bccaa91a073a ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1708952432 "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.tex" "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf" "main" 1708952448
-  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux" 1708952436 11557 93754f5ed2d3a60c436b62052e9a8992 ""
-  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.tex" 1708952448 91399 0d9ad42cc3dcada085f5b276ebc6b51b ""
+  "main.blg"
+["pdflatex"] 1708952587 "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.tex" "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf" "main" 1708952591
+  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux" 1708952591 11615 5146dde4f456340bade7def68820ac70 ""
+  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.tex" 1708952582 91428 01736a16f63ac4e40101d1ca9be858e8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -209,11 +209,11 @@
   "face&subspace/secondary.png" 1708613466 13755 738726365903e388ef55b0a032df5c6e ""
   "git/diffquotients.png" 1708613466 42706 b5f8cf5a7a83f6b2023a6ad1272fd9b3 ""
   "git/orbits of P1.png" 1708613466 977208 4263fab96ea02bac3c2b05494a23516c ""
-  "main.aux" 1708952436 11557 93754f5ed2d3a60c436b62052e9a8992 "pdflatex"
-  "main.bbl" 1708952432 3238 65d4f2e57e944be33f6ba8ece08f0aa2 "bibtex main"
-  "main.out" 1708952436 1468 ad53d218a026fa8b281b92855b9aeebd "pdflatex"
-  "main.tex" 1708952448 91399 0d9ad42cc3dcada085f5b276ebc6b51b ""
-  "main.toc" 1708952436 1031 90b19f0a7b6406d852e941a17d080b54 "pdflatex"
+  "main.aux" 1708952591 11615 5146dde4f456340bade7def68820ac70 "pdflatex"
+  "main.bbl" 1708952587 3238 65d4f2e57e944be33f6ba8ece08f0aa2 "bibtex main"
+  "main.out" 1708952591 1628 278cf4cb3ac437ddff9605deab69625d "pdflatex"
+  "main.tex" 1708952582 91428 01736a16f63ac4e40101d1ca9be858e8 ""
+  "main.toc" 1708952591 1060 603e1feaea37e4bc7a26100d09709606 "pdflatex"
   "rank2exmp/B3.png" 1708613466 52460 d68f6f42260b8e88da9c14b4d340e547 ""
   "rank2exmp/FIPS1.png" 1708613466 51627 70d700a5bbc6aab1a22bb5149b9ddb25 ""
   "rank2exmp/braidaction1.png" 1708613466 53889 c56e693db051d4c39f899be6ea0310b3 ""
@@ -227,10 +227,10 @@
   "rank2exmp/toricfans1.png" 1708613466 71226 7f09238a69d22e2d69c41c1901ecf89a ""
   "rank2exmp/zariski1.png" 1708613466 86142 3d8e9b635ef45f2937ef5bb4c8c44362 ""
   (generated)
-  "main.pdf"
-  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf"
-  "main.toc"
   "main.aux"
   "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.log"
-  "main.out"
+  "main.toc"
+  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf"
   "main.log"
+  "main.out"
+  "main.pdf"
