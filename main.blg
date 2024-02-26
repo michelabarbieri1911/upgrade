@@ -4,45 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: abbrv.bst
 Database file #1: mybib.bib
 Warning--can't use both volume and number fields in cogolludo
-You've used 17 entries,
+You've used 18 entries,
             2118 wiz_defined-function locations,
-            597 strings with 5797 characters,
-and the built_in function-call counts, 5364 in all, are:
-= -- 526
-> -- 235
+            603 strings with 5911 characters,
+and the built_in function-call counts, 5697 in all, are:
+= -- 561
+> -- 248
 < -- 5
-+ -- 97
-- -- 76
-* -- 377
-:= -- 907
-add.period$ -- 51
-call.type$ -- 17
-change.case$ -- 84
++ -- 102
+- -- 80
+* -- 403
+:= -- 962
+add.period$ -- 54
+call.type$ -- 18
+change.case$ -- 89
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 202
-empty$ -- 429
-format.name$ -- 76
-if$ -- 1098
+cite$ -- 19
+duplicate$ -- 213
+empty$ -- 456
+format.name$ -- 80
+if$ -- 1166
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 22
-newline$ -- 88
-num.names$ -- 34
-pop$ -- 89
+int.to.str$ -- 18
+missing$ -- 23
+newline$ -- 93
+num.names$ -- 36
+pop$ -- 92
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 76
 quote$ -- 0
-skip$ -- 135
+skip$ -- 143
 stack$ -- 0
-substring$ -- 352
-swap$ -- 32
+substring$ -- 382
+swap$ -- 33
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 58
+type$ -- 62
 warning$ -- 1
-while$ -- 55
-width$ -- 19
-write$ -- 186
+while$ -- 59
+width$ -- 20
+write$ -- 197
 (There was 1 warning)

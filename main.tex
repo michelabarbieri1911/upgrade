@@ -1,11 +1,10 @@
 % Article template for Mathematics Magazine
-\documentclass[oneside]{amsart}
+\documentclass[oneside,reqno]{amsart}
 
 %for the git double slash
 \usepackage{stmaryrd}
-
-
-
+\usepackage{hyperref}
+\usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{mathtools}
@@ -15,6 +14,7 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{comment}
+\usepackage{nicematrix}
 
 
 
@@ -147,20 +147,22 @@ In fact we have a family of these mirror Landau Ginzburg models, which vary by c
 \newline 
 An important remark is that $FIPS$ is not the same as $\mathcal{M}_{\text{CS}}$ or $\mathcal{M}_{\text{SKMS}}$, see Remark 2.8 in \cite{edwill} for an explanation of this. That said, there should be a map from $FIPS \to \mathcal{M}_{\text{CS}}$. Since $FIPS$ is the only thing we have a heuristic recipe for, we study a monodromy action of $FIPS$ on the derived categories of the GIT quotients. It is helpful to think of $FIPS$ as living inside the secondary toric variety $\Fs$. Recall that there are points in the boundary of $\Fs$ that correspond to GIT quotients. This makes the $\Fs$ an interesting compactification of $FIPS$ because we can then see limiting regions of $FIPS$ that correspond to specific GIT quotients. We can consider the fundamental groupoid of $FIPS$ $\Pi_1(FIPS)$ with a base point for every limiting region. The conjecture is that a path from one quotient $X$ to another quotient $X'$ acts on the set of derived categories of the GIT quotients via composition of wall-crossings (or spherical functor twists) and line bundle twists. Non-homotopic paths will correspond to different equivalences. \\
 \newline
-In Section \ref{FIPS} we will explain more details of the theory and put into plain sight how we exactly match the paths/loops in $\Pi_1(FIPS)$ to certain equivalences between the derived categories of the GIT quotients. Finally, in Section \ref{rank2example} we prove the conjecture for a rank 2 example. 
+In Section \ref{FIPS} we will explain more details of the theory and put into plain sight how we exactly match the paths/loops in $\Pi_1(FIPS)$ to certain equivalences between the derived categories of the GIT quotients. In Section \ref{rank2example} we prove the conjecture for a rank 2 example.  \\
+\newline
+Finally, in Section \ref{future} we lay out our plan to prove this conjecture for toric Calabi-Yau threefolds of Picard rank 2.
 
 \section{Background on Toric CY GIT}
 \label{background}
 \subsection{General Toric Geometric Invariant Theory}
 \label{GIT}
-We start with algebraic torus $T \cong (\mathbb{C}^*)^r$ acting on a vector space $V \cong \mathbb{C}^n$. We call this a rank $r$ dimension $n$ \textit{toric geometric invariant theory (GIT) problem}. We would like to construct a space that parametrises the actions quotients. \textit{Geometric Invariant Theory} (GIT) is the theory that tells us \textit{the unstable locus} to throw away before we quotient so that we get a good/geometric quotient \cite{mumford1994geometric}. GIT quotients are often denoted $X // G$. By the representation theory of the algebraic torus, for a choice of coordinates on $T$ and $V$ the actions must be of the form:
+We start with the algebraic torus $T \cong (\mathbb{C}^*)^r$ acting on a vector space $V \cong \mathbb{C}^n$. We call this a rank $r$ dimension $n$ \textit{toric geometric invariant theory (GIT) problem}. We would like to construct a space that parametrises the actions quotients. \textit{Geometric Invariant Theory} (GIT) is the theory that tells us \textit{the unstable locus} to throw away before we quotient so that we get a good/geometric quotient \cite{mumford1994geometric}. GIT quotients are often denoted $X \sslash G$. By the representation theory of the algebraic torus, for a choice of coordinates on $T$ and $V$ the actions must be of the form:
 $$
 (\lambda_1, \dots, \lambda_r) \cdot (z_1, \dots, z_n) = ({\lambda_1}^{q_{11}}{\lambda_2}^{q_{21}}\dots {\lambda_r}^{q_{r1}} z_1, \dots, {\lambda_1}^{q_{1n}}{\lambda_2}^{q_{2n}}\dots {\lambda_r}^{q_{rn}} z_1)
 $$
 We get an $r \times n$ integer matrix $Q = (q_{ij})$, called the \textit{weight matrix}. The column vectors $q_i = Q(e_i)$ of $Q$ are hence called the \textit{weights}.
 \begin{example}
   Consider $\mathbb{C}^*$ acting on $\mathbb{C}^2$ linearly, i.e. $\lambda \cdot (x, \, y) = (\lambda x,\, \lambda y)$.
-  If we take the quotient space, we see that the orbit of the origin cannot be separated from any other orbit. So we have to remove the origin and as expected, we get  GIT quotient $$ \mathbb{C}^2 // \mathbb{C}^* = \mathbb{C}^2 \backslash \{(0, \, 0)\} / \mathbb{C}^* = \mathbb{P}^1$$
+  If we take the quotient space, we see that the orbit of the origin cannot be separated from any other orbit. So we have to remove the origin and as expected, we get  GIT quotient $$ \mathbb{C}^2 \sslash \mathbb{C}^* = \mathbb{C}^2 \backslash \{(0, \, 0)\} / \mathbb{C}^* = \mathbb{P}^1$$
   \begin{figure}[!h]
     \centering
     \includegraphics[width=5cm]{git/orbits of P1.png}
@@ -209,9 +211,9 @@ $$
 and $X_\theta = X_{\theta'}$ if and only if $\theta' \in C_\theta$. The GIT quotient $X_{\theta'}$ changes when we cross a codimension one boundary of $C_{\theta}$. This wall and chamber structure gives us a fan in $L^v$, which we call \textit{the secondary fan}. We note that the 1-dimensional cones may be more than just the weights of the action. Corresponding to the secondary fan is a
 toric variety, the secondary toric variety $\Fs$. 
 \begin{example}
-  Consider $\mathbb{C}^*$ acting on $\mathbb{C}^3$ via $\lambda \cdot (x, \, y, \, z) = (\lambda x,\, \lambda y, \, \lambda^{-1}z)$. The character lattice is isomorphic to $\mathbb{Z}$. For $\theta > 0$, we have unstable locus $Z_{+} = \{ x = y = 0 \}$. We have GIT quotient $$\mathbb{C}^3 //_{\theta} \mathbb{C}^* = \mathbb{C}^3 \backslash{\{ x = y = 0 \}} / \mathbb{C}^* = \mathcal{O}(-1)_{\mathbb{P}^1_{x:y}}.$$
+  Consider $\mathbb{C}^*$ acting on $\mathbb{C}^3$ via $\lambda \cdot (x, \, y, \, z) = (\lambda x,\, \lambda y, \, \lambda^{-1}z)$. The character lattice is isomorphic to $\mathbb{Z}$. For $\theta > 0$, we have unstable locus $Z_{+} = \{ x = y = 0 \}$. We have GIT quotient $$\mathbb{C}^3 \sslash_{\theta} \mathbb{C}^* = \mathbb{C}^3 \backslash{\{ x = y = 0 \}} / \mathbb{C}^* = \mathcal{O}(-1)_{\mathbb{P}^1_{x:y}}.$$
    For $\theta < 0$, we have unstable locus $Z_{-} = \{z = 0\}$.
-   $$\mathbb{C}^3 //_{\theta} \mathbb{C}^* = \mathbb{C}^3 \backslash{\{ z = 0 \}} / \mathbb{C}^* = \mathbb{A}^2_{x, \, y}.$$
+   $$\mathbb{C}^3 \sslash_{\theta} \mathbb{C}^* = \mathbb{C}^3 \backslash{\{ z = 0 \}} / \mathbb{C}^* = \mathbb{A}^2_{x, \, y}.$$
    \begin{figure} [!h]
     \centering
     \includegraphics[width=8cm]{git/diffquotients.png}
@@ -265,7 +267,10 @@ which we call \textit{Higgs GIT problem} associated to $\mathcal{T}$.
 We have a Higgs GIT problem associated to a wall $W$ by taking the subset of weights to be the weights lying on the wall. We denote this subset of weights $Q(W)$, and the GIT problem as $Q_W$. This gives a rank $r-1$, dimension $|Q(W) |$ toric GIT problem. $Z$ is a GIT quotient of this new GIT problem, where we choose the stability condition to be on the wall $W$. In fact, $Z$ is a quotient of the fixed locus of the action of $\lambda_W$ by the rest of the action of $T$.
 \subsection{Spherical Functors}
 \label{CY}
-The goal of this section will be to construct \textit{spherical functors} from the data of a toric \textit{Calabi-Yau} GIT problem. We start first by explaining some general theory about them. The first type of spherical functors that were studied were \textit{spherical objects}. Let $X$ be a smooth projective variety over a field $k$
+
+The goal of this section will be to construct \textit{spherical functors} from the data of a toric \textit{Calabi-Yau} GIT problem. We start first by explaining some general theory about them. 
+\subsubsection*{General Theory}
+The first type of spherical functors that were studied were \textit{spherical objects}. Let $X$ be a smooth projective variety over a field $k$.
 \begin{definition}\cite[Chapter 8]{huybrechts}
     \label{sphericalobject}
     An object $\Es^{\bullet} \in D^b(X)$ is called \textit{spherical} if 
@@ -283,10 +288,15 @@ The goal of this section will be to construct \textit{spherical functors} from t
 These objects are called spherical because condition $(2)$ can be rephrased
 $$
 \text{Hom}_{D^b(X)}(\Es^{\bullet},\Es^{\bullet}[*]) \cong H^*(S^{\text{dim}(X)},k)
-$$,
+$$
 where $S^{\text{dim}(X)}$ denotes the $\text{dim}(X)$-dimensional sphere. We define the \textit{spherical twist} $T_{\Es^{\bullet}} : D^b(X) \to D^b(X)$ about a spherical object to be 
-
-Spherical twists about \textit{spherical functors} are generalisations of spherical twists about spherical objects. Our main reference for spherical functors is \cite[text]{spherical}. Consider an exact functor $F : \mathcal{A} \to \mathcal{B}$ between triangulated categories $\mathcal{A}$ and $\mathcal{B}$. with left and right adjoints $L, R : \mathcal{B} \to \mathcal{A}$. We define the \textit{twist} $T : \mathcal{B} \to \mathcal{B}$  to be the counit $FR \xrightarrow[]{\epsilon} \text{id}_\mathcal{B}$ of the adjuction, so that there is an exact triangle 
+\begin{equation}
+    \label{sphericalobjecttwist}
+    T_{\Es^{\bullet}} (\Fs^{\bullet}) = C\left( \text{Hom}(\Es^{\bullet}, \Fs^{\bullet})\otimes \Es^{\bullet} \xrightarrow{} \Fs\right)
+\end{equation}
+where the map is given by evaluation and note all the functors are derived\footnote{There are some technical issues with the definition of the spherical twist because taking cones is not functorial. We bypass any such issues because in our geometric context, where our triangulated category is the derived category of an algebraic variety, we can actually describe any spherical twist (even about a spherical functor) as a Fourier Mukai transform.}. By \cite[Proposition 8.6]{huybrechts}, the spherical twist $T_{\Es^{\bullet}}:D^b(X) \to D^b(X)$ about any spherical object $\Es^{\bullet}\in D^b(X)$ is an autoequivalence. The formula for the spherical twist may look familiar, and this is because at the level of $K$-theory it acts as reflection through the hyperplane orthogonal to the Mukai vector $v(\Es^{\bullet})$. So in a sense the spherical twist is a categorification of reflection. \\
+\newline
+Spherical twists about \textit{spherical functors} are generalisations of spherical twists about spherical objects. Our main reference for spherical functors is \cite[Section 1]{spherical}. Consider an exact functor $F : \mathcal{A} \to \mathcal{B}$ between triangulated categories $\mathcal{A}$ and $\mathcal{B}$. with left and right adjoints $L, R : \mathcal{B} \to \mathcal{A}$. We define the \textit{twist} $T : \mathcal{B} \to \mathcal{B}$ to be the cone on the counit $FR \xrightarrow[]{\epsilon} \text{id}_\mathcal{B}$ of the adjuction, so that there is an exact triangle 
 \begin{equation}
      FR \xrightarrow[]{\epsilon} \text{id}_\mathcal{B}\xrightarrow{} T,
 \end{equation}  
@@ -295,17 +305,24 @@ and the \textit{cotwist}
     \text{id}_\mathcal{A} \xrightarrow[]{\eta}  RF \xrightarrow{} C,
 \end{equation}  
 We say that $F$ is spherical if $C$ is an
-equivalence and $R \cong CL$.
-The upshot will be that the \textit{spherical twist} $T_F: D^b(X) \to D^b(X)$ of the spherical functor $F$:
-\begin{equation}
-    T_F \Es \defeq C \left( FR \Es \xrightarrow[]{\epsilon} \Es \right),
-\end{equation}   
-is an autoequivalence, where we take right adjoint $R : D^b(X) \to D^b(Z)$ to $F$, and $FR \xrightarrow[]{\epsilon} Id_{D^b(X_\theta)}$ is the counit of the adjunction \cite[Section 1]{spherical}. In \cite{gitauto}, Halpern-Leistner and Shipman proved that the autoequivalences coming from wall crossing give the autoequivalences coming from these spherical functors.
+equivalence and $R \cong C_T L$. 
+\begin{thm}[Rouquier and Anno]
+    The spherical twist $T_F : \mathcal{B} \to \mathcal{B}$ about a spherical functor $F : \mathcal{A} \to \mathcal{B}$ is an autoequivalence.
+\end{thm}
+\begin{proof}
+    Though attributed to Rouquier and Anno, Nick Addington gives a proof \cite[Theorem 1]{spherical}. 
+\end{proof}
+How is a spherical twist about a spherical functor a generalisation of the spherical twist about a spherical object? Suppose we have a spherical object $\Es^{\bullet} \in D^b(X)$ with $X$ a smooth projective variety over $k$. We define:
+$$
+F = \Es^{\bullet} \otimes - : D^b(pt) \xrightarrow{} D^b(X).
+$$
+We can prove that $F$ is a spherical functor, and since $R = \text{RHom}(\Es^{\bullet}, -)$, the twist $T_F : D^b(X) \to D^b(X)$ is exactly like the twist $T_{\Es^{\bullet}}$ we defined earlier. Note that $R \cong C_T L$ just amounts to condition (1) in Definition \ref{sphericalobject}.
 
-Let us consider a rank $r$ torus $T$ acting on a $n$-dimensional vector space $V$Let $X$ and $X'$ be two GIT quotients separated by a wall $W$. We construct a \textit{spherical functor} $F : D^b(Z) \to D^b(X) $ from the GIT data.
 
-%%%%%%%%%
-Let us consider a rank $r$ torus $T$ acting on a $n$-dimensional vector space $V$, with GIT problem given by the complex
+\subsubsection*{Spherical functors in toric CY GIT}
+Let us consider a rank $r$ torus $T$ acting on a $n$-dimensional vector space $V$. Let $X$ and $X'$ be two GIT quotients separated by a wall $W$. In this subsection we will be defining a spherical functor $F : D^b(Z) \to D^b(X) $ for \textit{Calabi-Yau} toric GIT problems, where $Z$ is the same variety showing up in the wall-crossing formula \eqref{wallcrossingformula}. Note that in \cite{gitauto}, Halpern-Leistner and Shipman proved that the autoequivalences coming from wall crossing give the autoequivalences coming from these spherical functors. \\
+\newline
+We start by explaining what we mean by a Calabi-Yau toric GIT problem. Our GIT problem is given by a complex
 $$
 0 \xrightarrow[]{} M \xrightarrow[]{A} \Z^n \xrightarrow[]{Q} L^v \xrightarrow[]{} 0.
 $$
@@ -330,29 +347,18 @@ for all $\lambda_i \in \CC^*$. So we need the sums $q_{m1} + \dots + q_{mn} = 0$
 \newline
 Let us consider a wall $W$ in our GIT problem. Because of the Calabi-Yau condition, the number of copies of $D^b(Z)$ in the wall crossing formula is 0. This is because $\text{det}V=0$ in formula \eqref{wcmult}. We instead use the wall-crossing formula on $D^b(Z)$ itself in the Higgs problem $Q_W$, which may not be Calabi-Yau. Upon applying the wall crossing formula once we find
 $$
-D^b(Z) = \langle D^b(Z'), D^b(Y),...,D^b(Y) \rangle,
+D^b(Z) = \langle D^b(Z'), D^b(Y),...,D^b(Y) \rangle_{SOD},
 $$
 where $Z'$ is a GIT quotient in $Q_W$ that's separated by a wall $W'$ from $Z$, and $Y$ is a subvariety coming from a the Higgs GIT problem of $Q_W$ associated to $W'$. Notice this GIT problem will also be a Higgs GIT problem of our original GIT problem $Q$. We imagine iterating the wall crossing formula on $D^b(Z')$ and $D^b(Y)$ until we can no longer cross to a more minimal quotient. This always terminates after a finite number of steps as each step strictly decreases the rank of the GIT problems. We get SOD (ignoring ordering):
 \begin{equation}
     \label{Zsod}
-    D^b(Z) = \langle D^b(Z_0), \dots, D^b(Z_0), \dots, D^b(Z_k), \dots D^b(Z_k)\rangle
+    D^b(Z) = \langle D^b(Z_0), \dots, D^b(Z_0), \dots, D^b(Z_k), \dots D^b(Z_k)\rangle_{SOD}
 \end{equation}
 where each $Z_i$ is a minimal GIT quotient for a Higgs problem of our original GIT problem. In \cite{kite2022discriminants} Kite-Segal prove that no matter how we choose to wall-cross, the subcategories occurring in the final decomposition and their multiplicities are independent of all choices. In the same paper, they show that the irreducible factors $Z_i$ come from Higgs problems associated to \textit{relevant subspaces}.
 \begin{definition}
     We call a subspace $H \subset L_{\mathbb{R}}^v$ \textit{relevant} if the cone spanned by the weights lying in $H$ is the whole of $H$.
 \end{definition}
 A relevant subspace $H$ defines a Higgs GIT problem by considering the weights lying on $H$. These Higgs GIT problems will have a non-empty minimal phase $Z_H$. The important point is that $Z_H$ are precisely the factors $Z_0, \dots, Z_k$ in the SOD \eqref{Zsod} for $D^b(Z)$. In other words, the relevant subspaces $H$ index the irreducible factors.  \\
-\newline
-Let $X$ and $X'$ be two GIT quotients separated by a wall $W$. We construct a \textit{spherical functor} $F : D^b(Z) \to D^b(X) $ from the GIT data. An exact functor $F : \mathcal{T} \to \mathcal{T}'$ between triangulated categories is called a spherical functor is the cone on the unit is an   
-
-
-
-The upshot will be that the \textit{spherical twist} $T_F: D^b(X) \to D^b(X)$ of the spherical functor $F$:
-\begin{equation}
-    T_F \Es \defeq C \left( FR \Es \xrightarrow[]{\epsilon} \Es \right),
-\end{equation}   
-is an autoequivalence, where we take right adjoint $R : D^b(X) \to D^b(Z)$ to $F$, and $FR \xrightarrow[]{\epsilon} Id_{D^b(X_\theta)}$ is the counit of the adjunction \cite[Section 1]{spherical}. In \cite{gitauto}, Halpern-Leistner and Shipman proved that the autoequivalences coming from wall crossing give the autoequivalences coming from these spherical functors.
-\\
 \newline
 So how is the spherical functor $F$ defined? In Section \ref{GIT} we presented a method to analyse the stability of points in a toric GIT problem. An equivalent and more general method is the \textit{Hilbert-Mumford Criterion}, which essentially says it's enough to analyse the stability of points in the GIT problems coming from one-parameter subgroups \cite{mumford}. A point will then be (semi-)stable if it is (semi-)stable for all one-parameter subgroups. In practice in toric GIT problems we only need to consider a finite number of one-parameter subgroups. \\
 \newline
@@ -665,7 +671,7 @@ has critical values. As this problem is simple and our polygon is very symmetric
     \frac{\partial W_{a,b,d}}{\partial Z} &= d - Z^{-2}.
     \label{diff3}
 \end{align}
-Equation \ref{diff2} and \ref{diff3} imply $Y = \pm \frac{1}{\sqrt{b}}$ and $Z = \pm \frac{1}{\sqrt{d}}$, and plugging this into \ref{diff1} we get
+Equation \eqref{diff2} and \eqref{diff3} imply $Y = \pm \frac{1}{\sqrt{b}}$ and $Z = \pm \frac{1}{\sqrt{d}}$, and plugging this into \eqref{diff1} we get
 \begin{equation}
     \label{discrimexmp1}
     \Delta = \{d^2 + b^2 + a^4 -2bd - 2a^2b - 2a^2d = 0\}
@@ -684,24 +690,24 @@ where the torsion free part comes from ${\mathcal{O}(-1)^{\oplus 2}}_{\PP^1_{b:c
 \newline
 In line with this we will scale out $d$ and now think of $FIPS$ as $\left[ (\CC^2 \backslash \{bf(a,b)=0\} ) / \Z_2 \right]$ where $f(a,b)=(a^2 + b )^2 -4a^2b -2(a^2 + b) +1$ and $Z_2$ acts on $a$ by $-1$ and it acts on $b$ trivially. Our choice of base point in the fundamental group will now be a point close to the origin.\\
 \newline
-What should a meridian around $\{ f(a,b)=0\}$ correspond to? By condition (2) in Conjecture \ref{main}, we want a meridian about discriminant component $\Delta_{\Gamma}$ for $\Gamma \subset P$ a minimal face to correspond to a spherical twisting about a spherical functor $F_{\Gamma}: Z_{\Gamma^c} \to D^b(X_3)$. In this case we only have one non-trivial discriminant component which is $\Gamma = P$. We $\Gamma^c = \emptyset$ and hence $Z_{\Gamma^c} = pt$. So we want meridians about $\Delta$ to correspond to spherical twists about spherical functors $F: D^b(pt) \to D^b(X_3)$. Note that spherical twists about spherical functors with input category $D^b(pt)$ are the same as spherical twists about spherical objects as defined in \cite[Chapter 8]{huybrechts}, where $F(\Os_{pt})$ is the spherical object. \\
+What should a meridian around $\{ f(a,b)=0\}$ correspond to? By condition (2) in Conjecture \ref{main}, we want a meridian about discriminant component $\Delta_{\Gamma}$ for $\Gamma \subset P$ a minimal face to correspond to a spherical twisting about a spherical functor $F_{\Gamma}: Z_{\Gamma^c} \to D^b(X_3)$. In this case we only have one non-trivial discriminant component which is $\Gamma = P$. We have $\Gamma^c = \emptyset$ and hence $Z_{\Gamma^c} = pt$. So we want meridians about $\Delta$ to correspond to spherical twists about spherical functors $F: D^b(pt) \to D^b(X_3)$. By our discussion in Section \ref{CY} on spherical functors, this is just a spherical twist about spherical object $F(\Os_{pt})$.\\
 \newline 
-A priori it seems like we have several spherical functors $F: D^b(pt) \to D^b(X_3)$ coming from the two walls $W_{13}$ and $W_{2,3}$. For $W_{1,3}$ the fixed locus under $(0,1)$ is $\{ a=d=e=0 \}$, and we can quotient by the remaining action and find $Z_{13} = \PP^1_{b,c}$. Similarly the fixed locus under $(1,-1)$ is $\{ a=0\}$, and we can quotient by the remaining action and find $Z_{23} = \left[ pt / \Z_2\right]$. Via wall crossing we have two SODs $D^b(Z_{13}) = \langle D^b(pt), D^b(pt) \rangle_{SOD}$ and $D^b(Z_{23}) = \langle D^b(pt), D^b(pt) \rangle_{SOD}$. Looking at the GIT quotient $X_1$ on the other side of $W_{13}$, we see we  remove $\{ d=e=0\}$ instead of $\{ a=0\}$ for $X_3$. In $X_3$, $\{ d=e=0\}$ is just the zero section $\PP^1_{b:c}$.
+A priori it seems like we have several spherical functors $F: D^b(pt) \to D^b(X_3)$ coming from the two walls $W_{13}$ and $W_{23}$. For $W_{13}$ the fixed locus under $(0,1)$ is $\{ a=d=e=0 \}$, and we can quotient by the remaining action and find $Z_{13} = \PP^1_{b,c}$. Similarly the fixed locus under $(1,-1)$ is $\{ a=0\}$, and we can quotient by the remaining action and find $Z_{23} = \left[ pt / \Z_2\right]$. Via wall crossing we have two SODs $D^b(Z_{13}) = \langle D^b(pt), D^b(pt) \rangle_{SOD}$ and $D^b(Z_{23}) = \langle D^b(pt), D^b(pt) \rangle_{SOD}$. Looking at the GIT quotient $X_1$ on the other side of $W_{13}$, we see we  remove $\{ d=e=0\}$ instead of $\{ a=0\}$ for $X_3$. In $X_3$, $\{ d=e=0\}$ is just the zero section $\PP^1_{b:c}$.
 \begin{center}
 \begin{tikzcd}
-  \PP^1_{b:c} \arrow[d,"\pi_{13}"] \arrow[r, "i_{13}"] & X_3 \\
+    \left[\PP^1_{b:c}/ \Z_2 \right] \arrow[d,"\pi_{13}"] \arrow[r, "i_{13}"] & X_3 \\
   Z_{13} = \left[ pt / \Z_2\right] &
 \end{tikzcd}
 \end{center}
-Looking at the GIT quotient $X_2$ on the other side of $W_{23}$, we see we  remove $\{ d=e=0\}$ instead of $\{ b=c=0\}$ for $X_3$. Again $\{ d=e=0\}$ is just the zero section $\PP^1_{b:c}$.
+Looking at the GIT quotient $X_2$ on the other side of $W_{23}$, we see we  remove $\{ d=e=0\}$ instead of $\{ b=c=0\}$ for $X_3$. Again $\{ d=e=0\}$ is just the stacky zero section $\left[\PP^1_{b:c} \right]$.
 \begin{center}
 \begin{tikzcd}
-  \PP^1_{b:c} \arrow[d,"\pi_{23}"] \arrow[r, "i_{23}"] & X_3 \\
+    \left[\PP^1_{b:c} / \Z_2 \right] \arrow[d,"\pi_{23}"] \arrow[r, "i_{23}"] & X_3 \\
   Z_{23} = \PP^1_{b:c} &
 \end{tikzcd}
 \end{center}
-We have two spherical functors $F_{13} = {i_{13}}_* \pi_{13}^*$ and $F_{23} = {i_{23}}_* \pi_{23}^*$ coming from the walls $W_{13}$ and $W_{23}$, where all these functors are derived. If we restrict these both to the SOD components of $D^b(Z_{13})$ and $D^b(Z_{23})$ we just get spherical object $\Os_{\PP^1}$. This answers our question:
-we will want a a meridian around $\{ f(a,b)=0\}$ to correspond to twisting about $\Os_{\PP^1}$ (or a twist of it). We write $\mathcal{O}_{\PP^1}(n,m) = \mathcal{O}_{\PP^1}\otimes \mathcal{O} (n,m)$.
+We have two spherical functors $F_{13} = {i_{13}}_* \pi_{13}^*$ and $F_{23} = {i_{23}}_* \pi_{23}^*$ coming from the walls $W_{13}$ and $W_{23}$, where all these functors are derived. If we restrict these both to the SOD components of $D^b(Z_{13})$ and $D^b(Z_{23})$ we just get spherical object $\Os_{\PP^1}$ twisted by some line bundle, depending on the choice of SOD component. This answers our question:
+we will want a a meridian around $\{ f(a,b)=0\}$ to correspond to twisting about $\Os_{\PP^1}$ (or a twist of it). 
 \\
 \newline
 Now that we've explained what meridians should correspond to it's time to compute the fundamental group of $FIPS=\left[ (\CC^2 \backslash \{bf(a,b)=0\} ) / \Z_2 \right]$ with base point near the origin. This is a smooth DM stack and to compute the orbifold  fundamental group, we first remove the $\Z_2$ orbifold curve $\{ a=0\}$ and compute the fundamental group of this non-stacky space. In the group presentation there will be a representative $\gamma$ for the meridian around the stacky locus of the orbifold, and to obtain the orbifold fundamental group we just need to quotient out by $\gamma$ to the power of the order of the finite group acting i.e. $\gamma^2$.\\
@@ -715,33 +721,40 @@ So we compute the fundamental group of $[\CC^2 \backslash \{abf(a,b)=0\}/\Z_2]$.
 \end{figure}
 \\
 \newline
-We have a choice of which projection to use, but the best projection is one where we can maximally exploit what we see in the real picture. For example, ideally we want a projection where we can see all non-generic fibres in the real picture. We also want a projection where all the points missing from generic real fibres are in the real picture. This is not necessarily always possible but in this example it is if look at projecting onto $\{ a=-b \}$. This is the same (up to some rescaling) as taking the projection $X \xrightarrow[]{\pi} \CC^1$, defined as $(a,b) \mapsto a-b$ (the fibres are lines of gradient 1).
+We have a choice of which projection to use, but the best projection is one where we can maximally exploit what we see in the real picture. For example, ideally we want a projection where we can see all non-generic fibres in the real picture. We also want a projection where all the points missing from generic real fibres are in the real picture. This is not necessarily always possible, but in this example it is by projecting onto $\{ a=-b \}$. We therefore consider the projection $X \xrightarrow[]{\pi} \CC^1$, defined as $(a,b) \mapsto a-b$, where the fibres are lines in $\CC^2_{a,b}$ of gradient 1.
 \begin{figure}[!h]
     \centering
     \includegraphics[width=8cm]{rank2exmp/projection1.png}
     \caption{The projection $\pi$ of X in the real picture.}
     \label{projection1}
 \end{figure}
-We can see that $\pi$ is a locally trivial fibration outside of the three special fibers $L_1 = \pi^{-1}(z_1)$ (projection of the fiber containing the tacnode at $(0, 1)$), $L_2 = \pi^{-1}(0)$ (projection of the fiber containing the node at $(0, 0)$), and $L_3= \pi^{-1}(1)$ (projection of the fiber containing the tacnode at $(1, 0)$). 
+We can see that $\pi$ is a locally trivial fibration outside of the three special fibers:
+\begin{itemize}
+    \item $L_1 = \pi^{-1}(z_1)$, the fiber containing the tacnode at (0, 1), \\
+    \item $L_2 = \pi^{-1}(0)$, the fiber containing the node at (0, 0), \\
+    \item $L_3= \pi^{-1}(1)$, the fiber containing the tacnode at (1, 0).
+\end{itemize}
+Our first step will be to compute the fundamental group of $X$ without the special fibres. We will do this by the following theorem.
+\begin{thm}\cite[Theorem 2.1]{cogolludo}
+\label{locallytriv}
+Suppose you have a locally trivial fibration $\pi : M \to N$ with section $s : N\to M$ and take $p \in N $. Let $F = \pi^{-1}(p)$ be the fibre over $p$, and $x\in F\subset X$. Then $\pi_1(M,x) = \pi_1(F,x) \rtimes \pi_1(N,p)$, where the action of $\pi_1(N,p)$ on $\pi_1(F,x)$ is given by monodromy. 
+\end{thm}
 \begin{figure}[!h]
     \centering
     \includegraphics[width=12cm]{rank2exmp/zariski1.png}
     \caption{Loops in $Y$.}
     \label{zariski1}
 \end{figure}
-Our first step will be to compute the fundamental group of $X$ without the special fibres. We will do this by the following theorem.
-\begin{thm}\cite[Theorem 2.1]{cogolludo}
-\label{locallytriv}
-Suppose you have a locally trivial fibration $\pi : M \to N$ with section $s : N\to M$ and take $p \in N $. Let $F = \pi^{-1}(p)$ be the fibre over $p$, and $x\in F\subset X$. Then $\pi_1(M,x) = \pi_1(F,x) \rtimes \pi_1(N,p)$, where the action of $\pi_1(N,p)$ on $\pi_1(F,x)$ is given by monodromy. 
-\end{thm}
-We restrict our $\pi$ to the aforementioned locally trivial fibration. Let $Y= X \backslash L_1 \cup L_2 \cup L_3$. $\pi : Y  \to \CC^1\backslash \{-1,0,1 \}$ (which by abuse of notation we still denote $\pi$). It is easy to see that this now a locally trivial fibration (see Figure \ref{zariski1}). We denote the base $\CC^1\backslash \{-1,0,1 \}$ by $B$. Each fibre of $\pi$ is now homeomorphic to $\CC^1 \backslash \{3 pts\}$. We consider loops $\sigma_1,\sigma_2, \sigma_3 \in \pi_1(B,-1/2)$ that freely generate the fundamental group on the the base $B$ with base point $-1/2 \in B$. Let $F=\pi^{-1}(-1/2)\cong \CC^1\backslash \{ 3 pts\}$ be the fibre of $\pi$ above this basepoint. We choose a basepoint $x \in F \subset X$ in the fibre to be quite far from the three missing points\footnote{More specifically we need to pick $x \in X$ far enough so that if $A\subset F$ is a bounded closed subset containing the paths traced out by the missing points in the fibres as we move along the loops $\sigma_i$ on the base, then $x \in B\backslash A$. We want this so that later we can easily argue that gluing the special fibres back in and computing $\pi_1(X)$ just amounts to trivialising the $\sigma_i$.}. The loops $g_1,g_2,g_3 \in \pi_1(F,x)$ around the missing points in the fibre coming $\{b=0 \}$, $\{ a=0\}$, and $\{g(a,b)=0\}$ respectively freely generate the fundamental group of the fibre with base point $x \in X$. The missing points are precisely the points of intersection of the curves in Figure \ref{FIPS1} with the line $b=a-1/2$. As we move along the loops $\sigma_i$ on the base we have a monodromy action on $g_1,g_2,g_3$. This monodromy action arises from the continuous trajectory of the missing points in the fibres as we move along loops on the base through the homotopy lifting property of locally trivial fibrations. We shall denote the loops after after monodromy ${g_j}^{\sigma_i}$. By Theorem \ref{locallytriv} we have group presentation for the fundamental group of $Y$:
+We restrict our $\pi$ to the aforementioned locally trivial fibration. Let $Y= X \backslash L_1 \cup L_2 \cup L_3$. $\pi : Y  \to \CC^1\backslash \{-1,0,1 \}$. It is easy to see that this now a locally trivial fibration (see Figure \ref{zariski1}). We denote the base $\CC^1\backslash \{-1,0,1 \}$ by $B$. Each fibre of $\pi$ is now homeomorphic to $\CC^1 \backslash \{3 pts\}$. We consider loops $\sigma_1,\sigma_2, \sigma_3 \in \pi_1(B,-1/2)$ that freely generate the fundamental group on the the base $B$ with base point $-1/2 \in B$. Let $F=\pi^{-1}(-1/2)\cong \CC^1\backslash \{ 3 pts\}$ be the fibre of $\pi$ above this basepoint. We choose a basepoint $x \in F \subset X$ in the fibre to be quite far from the three missing points\footnote{More specifically we need to pick $x \in X$ far enough so that if $A\subset F$ is a bounded closed subset containing the paths traced out by the missing points in the fibres as we move along the loops $\sigma_i$ on the base, then $x \in B\backslash A$. We want this so that later we can easily argue that gluing the special fibres back in and computing $\pi_1(X)$ just amounts to trivialising the $\sigma_i$.}. The loops $g_1,g_2,g_3 \in \pi_1(F,x)$ around the missing points in the fibre coming from $\{b=0 \}$, $\{ a=0\}$, and $\{g(a,b)=0\}$ respectively freely generate the fundamental group of the fibre with base point $x \in X$. The missing points are precisely the points of intersection of the curves in Figure \ref{FIPS1} with the line $b=a-1/2$. As we move along the loops $\sigma_i$ on the base we have a monodromy action on $g_1,g_2,g_3$. This monodromy action arises from the continuous trajectory of the missing points in the fibres as we move along loops on the base through the homotopy lifting property of locally trivial fibrations. We shall denote the loops after after monodromy ${g_j}^{\sigma_i}$. By Theorem \ref{locallytriv} we have group presentation for the fundamental group of $Y$:
 \begin{align*}
     \pi_1(Y,x) &\cong \pi_1(F,x) \rtimes \pi_1(B,-1/2)  \\
     &=\langle \, g_1,g_2,g_3,\sigma_1,\sigma_2,\sigma_3 \, | \,\forall i,j \in \{1,2,3 \}, \: \: \: {g_j}^{\sigma_i}={\sigma_i}^{-1} g_j \sigma_i \, \rangle
 \end{align*}
 So we now need to understand ${g_j}^{\sigma_i}$. As we move around $\sigma_i$ the three points missing in the fibre move. Let us parametrise $\sigma_i$ by $t \in [0,1 ]$. Braid monodromy techniques become useful because in $\pi^{-1}(\sigma_i([0,1]))$, the missing points actually form 3 strands of a braid. The local monodromy can be worked out from the braid. \\
 \newline
-We work this out explicitly for the loop $\sigma_1\in \pi_1(B,-1/2)$. Locally near $-1 \in B$, our fibration is equivalent to the locally trivial fibration $\tau : \CC^2_{x,y}\backslash \{ y=-2, y=0, y=x^2\} \to \CC_x^*$. Here we can take $\sigma_1(t) = e^{2\pi it} \in \CC_x^*$ and $\{ y=-2\}$, $\{y=0\}$ and $\{y =x^2\}$ correspond to the curves $\{b=0\}$, $\{a=0\}$ and $\{ g(a,b)=0\}$. 
+We work this out explicitly for the loop $\sigma_1\in \pi_1(B,-1/2)$. Locally near $-1 \in B$, our fibration is equivalent to the locally trivial fibration 
+$$\tau : \CC^2_{x,y}\backslash \{ y=-2, y=0, y=x^2\} \to \CC_x^*.$$
+Here we can take $\sigma_1(t) = e^{2\pi it} \in \CC_x^*$ and $\{ y=-2\}$, $\{y=0\}$ and $\{y =x^2\}$ correspond to the curves $\{b=0\}$, $\{a=0\}$ and $\{ g(a,b)=0\}$. 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=12cm]{rank2exmp/exmp1tau.png}
@@ -787,7 +800,7 @@ and the braid $b_2$ acts on $g_1$, $g_2$, and $g_3$ by
     \includegraphics[width=14cm]{rank2exmp/braidgenerators.png}
     \caption{The actions of $b_1$ (left) and $b_2$ (right) on loops $g_1,g_2,g_3$}
     \label{braidgenaction}
-\end{figure}\\
+\end{figure}
 A quick computation shows that the local action of $\sigma_1 = (b_1)^4$ is 
 \begin{align*}
     g_1 &\mapsto g_1, \\
@@ -818,63 +831,75 @@ $$
 $$
 This is also known as the even Artin group $\A (2,4,4)$. To get the orbifold fundamental group of $\pi_1(FIPS)$ recall we have to quotient by the square of the meridian about $\{ a=0\}$, which is represented by $g_2$. So 
 \begin{align}
-\pi_1(FIPS) = \langle g_1, g_2, g_3 |(g_3g_2)^2 = (g_2g_3)^2, [g_1,g_2]=1, (g_1 g_3)^2 = (g_3 g_1)^2 , {g_2}^2 \rangle.
+\pi_1(FIPS) = \langle g_1, g_2, g_3 |(g_3g_2)^2 = (g_2g_3)^2, [g_1,g_2]=1, (g_1 g_3)^2 = (g_3 g_1)^2 , {g_2}^2 =1\rangle.
 \label{fipspresentation}
 \end{align}
-We go back to our story where $\pi_1(FIPS)$ acts via autoequivalence on the bounded derived category of our phase $X_3 = \left[{\mathcal{O}(-1)^{\oplus 2}}_{\PP^1_{b:c}} / \Z_2 \right]$ with local coordinates on the fibres $d,e$. Recall that the meridians $ g_1$ and $g_2$ about $\{b=0 \}$ and $\{a=0 \}$ should correspond to line bundle twists, and the meridian $ g_3 $ about the discriminant locus $\Delta$ corresponds to doing a spherical twist about the spherical object $\Os_{\PP^1}$. We call from Equation \eqref{picX3} the structure of $\text{Pic}X_3$, and set
+We go back to our story where $\pi_1(FIPS)$ acts via autoequivalence on the bounded derived category of our phase $X_3 = \left[{\mathcal{O}(-1)^{\oplus 2}}_{\PP^1_{b:c}} / \Z_2 \right]$ with local coordinates on the fibres $d,e$. Recall that the meridians $ g_1$ and $g_2$ about $\{b=0 \}$ and $\{a=0 \}$ should correspond to line bundle twists, and the meridian $ g_3 $ about the discriminant locus $\Delta$ corresponds to doing a spherical twist about the spherical object $S=\Os_{\PP^1}$. We recall from Equation \eqref{picX3} the structure of $\text{Pic}X_3$, and set
 \begin{align*}
     g_1 &= \otimes \Os(1,0) : D^b(X_3) \to D^b(X_3),\\
     g_2 &= \otimes \Os(0,1) : D^b(X_3) \to D^b(X_3)\\
-    g_3 &= T_{\Os_{\PP^1}}: D^b(X_3) \to D^b(X_3),
+    g_3 &= T_{S}: D^b(X_3) \to D^b(X_3),
 \end{align*}
-where we recall the definition of a spherical twist about a spherical object:
+where we recall the definition of a spherical twist about a spherical object $S \in D^b(X_3)$:
 \begin{equation*}
-     T_{\Os_{\PP^1}}\Es =C\left(\text{Hom}(\Os_{\PP^1},\Es )\otimes \Os_{\PP^1} \to \Es  \right).
+     T_{S}\Es =C\left(\text{Hom}(S,\Es )\otimes S \to \Es  \right).
 \end{equation*}
-To check that the fundamental group does act in this way, we need to verify that the functors assigned satisfy the group relations. We will repeatedly use that if we have a line bundle $\Ls \in \text{Pic}X_3$ and a spherical functor $T_{\Fs}$:
-$$
-\otimes \Ls^{-1} \circ T_{\Fs}  \circ \otimes \Ls = T_{\Ls \otimes \Fs}
-$$
-Another useful relation is that if we have a spherical twist $T_{F}$ about a spherical functor $F$ and a spherical twist $T_{\Es}$ about a spherical object $\Es$:
-$$
-(T_F)^{-1} \circ T_{\Es} \circ T_F = T_{T_F \Es}
-$$
-The second relation and the fourth relation in the presentation for $\pi_1(FIPS)$ (Equation \eqref{fipspresentation}). The first and third relations can be rewritten:
+To check that the fundamental group does act in this way, we need to verify that the functors assigned satisfy the group relations. We will exploit the following easy lemma.
+\begin{lemma}
+    \label{twistrels}
+    Let $F : \mathcal{A} \to \mathcal{B}$ be a spherical functor between triangulated categories and let $\Phi : \mathcal{B} \to \mathcal{B}$ be an autoequivalence. Then
+    $$
+    \Phi \circ T_F \circ  \Phi^{-1} = T_{\Phi \circ F}.
+    $$
+\end{lemma}
+\begin{proof}
+    The proof is obvious.
+\end{proof}
+The second relation and the fourth relation in the presentation for $\pi_1(FIPS)$ (Equation \eqref{fipspresentation}) are obvious since tensoring by line bundles is commutative and we know that $\Os(0,1)$ is 2-torsion. The first and third relations can be rewritten:
 \begin{align*}
-    g_2 g_3 {g_2}^{-1} &= {g_3}^{-1}{g_2}^{-1}g_3 g_2 g_3,\\
-    g_1 g_3 {g_1}^{-1} &= {g_3}^{-1}{g_1}^{-1}g_3 g_1 g_3.
+    g_3 g_2 g_3 {g_2}^{-1} {g_3}^{-1} &= {g_2}^{-1}g_3 g_2,\\
+    g_3 g_1 g_3 {g_1}^{-1} {g_3}^{-1} &= {g_1}^{-1}g_3 g_1 .
 \end{align*}
-Subbing in our functors we want to show relations:
+Substituting in our functors and using Lemma \ref{twistrels} the relations read:
 \begin{align*}
-    T_{\Os_{\PP^1}(0,1)} &= T_{T_{\Os_{\PP^1}}\Os_{\PP^1}(0,1)},\\
-    T_{\Os_{\PP^1}(-1,0)} &= T_{T_{\Os_{\PP^1}}\Os_{\PP^1}(1,0)}.
+    T_{T_{S} {\Os_{\PP^1}(0,1)}} &= T_{\Os_{\PP^1}(0,1)},\\
+    T_{T_{S} \Os_{\PP^1}(1,0)} &= T_{\Os_{\PP^1}(-1,0)}.
 \end{align*}
-where we used that $\Os(0,1)^{-1} = \Os(0,1)$. It is a fact that if two spherical twists are equal then the spherical objects must be equal up to shift. So all we need to show is that 
+where we used that $\Os(0,1)^{-1} = \Os(0,1)$. Therefore if we show
 \begin{align}
-    \Os_{\PP^1}(0,1)&= T_{\Os_{\PP^1}}\Os_{\PP^1}(0,1), 
+    T_{S} \Os_{\PP^1}(0,1)&= \Os_{\PP^1}(0,1), 
     \label{rel1}\\
-    \label{rel2} \Os_{\PP^1}(-1,0) &= T_{\Os_{\PP^1}}\Os_{\PP^1}(1,0).
+    \label{rel2} T_{S} \Os_{\PP^1}(1,0) &= \Os_{\PP^1}(-1,0),
 \end{align}
-Let's start by computing $T_{\Os_{\PP^1}}\Os_{\PP^1}(0,1)$. We note that 
+then we're done. Let's start by computing $T_{\Os_{\PP^1}}\Os_{\PP^1}(0,1)$. We note that\footnote{In the second equality we use that the local-to-global spectral sequence terminates on the second page, which is easy to argue.}
 \begin{align*}
     \text{RHom}(\Os_{\PP^1}(k_1, k_2),\Os_{\PP^1}(m_1,m_2)) &= \text{RHom}(\Os_{\PP^1},\Os_{\PP^1}(m_1 - k_1, m_2 - k_2)), \\
-    &=\text{RHom}(\Os_{\PP^1},\Os_{\PP^1})(m_1 - k_1, m_2 - k_2).
+    &=R\Gamma \left(\text{R}\mathcal{H}om(\Os_{\PP^1},\Os_{\PP^1})(m_1 - k_1, m_2 - k_2) \right).
 \end{align*}
-So we start by computing $\text{RHom}(\Os_{\PP^1},\Os_{\PP^1})$, then we twist it accordingly and take global sections. To compute the derived functor we start by Koszul resolving $\Os_{\PP^1}$:
+So we start by computing $\text{R}\mathcal{H}om(\Os_{\PP^1},\Os_{\PP^1})$, then we twist it accordingly and take deried global sections (sheaf cohomology). To compute the derived functor we start by Koszul resolving $\Os_{\PP^1}$:
 \begin{equation*}
 0 \xrightarrow[]{} \Os(2,0) \xrightarrow[]{(-e,d)} \Os(1,1)^2\xrightarrow[]{(d,e)^T} \Os \xrightarrow[]{} \Os_{\PP^1} \xrightarrow[] {}0
 \end{equation*}
-Ignore $\Os_{\PP^1}$ in the resolution and taking $\text{Hom}(, \Os_{\PP^1})$ we get
+Ignore $\Os_{\PP^1}$ in the resolution and taking $\mathcal{H}om(, \Os_{\PP^1})$ we get
 \begin{equation}
 \label{koszul}
-0 \xleftarrow[]{} \Os_{\PP^1}(-2,0) \xleftarrow[]{0} \Os_{\PP^1}(-1,1)^2\xleftarrow[]{0} \Os_{\PP^1} \xleftarrow[]{} 0
+\text{R}\mathcal{H}om(\Os_{\PP^1},\Os_{\PP^1}) = 0 \xleftarrow[]{} \Os_{\PP^1}(-2,0) \xleftarrow[]{0} \Os_{\PP^1}(-1,1)^2\xleftarrow[]{0} \Os_{\PP^1} \xleftarrow[]{} 0
 \end{equation}
 We twist by $\Os(0,1)$:
 $$
 0 \xleftarrow[]{} \Os_{\PP^1}(-2,1) \xleftarrow[]{0} \Os_{\PP^1}(-1,0)^2\xleftarrow[]{0} \Os_{\PP^1}(0,1) \xleftarrow[]{}0
 $$
-We take global sections and get 0 in all degrees. For $\Os_{\PP^1}(-2,1)$ the global sections would be homogeneous polynomials in $b,c$ variables of degree -2 that live in $\Z_2$ grading 1 that are $\Z_2$ invariant. There are no such polynomials. For $\Os_{\PP^1}(-1,0)$ the global sections would be homogeneous polynomials in $b,c$ variables of degree -1 that are $\Z_2$ invariant. There are no such polynomials. For $\Os_{\PP^1}(0,1)$ the sections are degree 0 polynomials in $b,c$ variables (constants) that live in $\Z_2$ grading 0, but all constants live in grading 1 by the shift.
-So $\text{Hom}\left(\Os_{\PP^1},\Os_{\PP^1}(0,1)\right) = 0$ and we have
+We take derived global sections and get 0 in all degrees. For $\Os_{\PP^1}(-2,1)$ we can see this because there is only one extension (of degree 1) of $\Os_{\PP^1}(-2)$ in $\PP^1$, and in $[ \PP^1 / \Z_2 ]$ it is not $\Z_2$ invariant:
+$$
+0 \xrightarrow[]{} \Os_{\PP^1}(0,1) \xrightarrow[]{\begin{pmatrix}
+    c & -b
+\end{pmatrix}} \Os_{\PP^1}(-1,1)^2\xrightarrow[]{\begin{pmatrix}
+    b \\
+    c
+\end{pmatrix}} \Os_{\PP^1}(-2,1) \xrightarrow[]{}0
+$$
+For $\Os_{\PP^1}(-1,0)$ we know $\Os_{\PP^1}(-1)$ in $\PP^1$ has no sheaf cohomology. For $\Os_{\PP^1}(0,1)$ the derived global sections come from genuine sections of $\Os_{\PP^1}$ in $\PP^1$ i.e. degree 0 polynomials in $b,c$ variables (constants), but these are $\Z_2$ invariant.
+So $\text{RHom}\left(\Os_{\PP^1},\Os_{\PP^1}(0,1)\right) = 0$ and we have
 $$
 T_{\Os_{\PP^1}}\Os_{\PP^1}(0,1) = C(0 \to \Os_{\PP^1}(0,1)) =\Os_{\PP^1}(0,1),
 $$
@@ -884,12 +909,45 @@ which is precisely the relation \eqref{rel1}. To check the relation \eqref{rel2}
 \end{equation*}
 Taking global sections we get $\CC^2_{b,c}$ in degree 0. So
 $$
-T_{\Os_{\PP^1}}\Os_{\PP^1}(1,0) = C({\Os_{\PP^1}}^2 \to \Os_{\PP^1}(1,0)) =\Os_{\PP^1}(-1,0).
+T_{\Os_{\PP^1}}\Os_{\PP^1}(1,0) = C({\Os_{\PP^1}}^2 \to \Os_{\PP^1}(1,0)) =\Os_{\PP^1}(-1,0),
 $$
-This is relation \eqref{rel2}.
-
+using the Euler sequence. This is relation \eqref{rel2}.
 \section{Future research}
+\label{future}
+In the rank 2 example we presented in Section \ref{rank2example}, the GIT quotient $X_1$ is a toric Calabi-Yau threefold of Picard rank 2. Given any toric Calabi-Yau threefold $X$ of Picard rank 2, we can consider the brane monodromy conjecture by constructing a toric Calabi-Yau GIT problem $(\CC^*)^2$ acting on $\CC^5$ for which $X$ is a GIT quotient. Note that we know the rank of the GIT problem 2 because of the rank of the Picard group, and we know the dimension of the problem is 5 because the quotient $X$ is three-dimensional. Suppose the problem is given by exact sequence
+$$
+\Z^3 \xrightarrow{A} \Z^5 \xrightarrow{Q} \Z^2
+$$
+where $Q$ is the weight matrix. Recall from Section \ref{fips} the definition of the primary polygon $P \in \Z^3 \otimes_{\Z} \R$, which is the convex hull of the rays $a_i = A^T(e_i) \in \Z^{3}$. Different triangulations of the primary polygon correspond precisely to the different GIT quotients, in that the cone on the triangulated polygon gives you the toric fan of your quotient. Since we could have chosen a different set of generators for $\text{ker}Q \cong \Z^3$, we have an action by $GL_3(\Z)$ on this polygon. Because of our Calabi-Yau assumption (the weights sum up to 0), we can choose generators so that the column of $A$ is a list of 1s, and we see $P$ living in the rank 2 lattice in $\Z^3$ where the first integer coordinate is 1. \\
+\newline
+Even if we impose the first column of $A$ to be 1, we still have a residual action on $P$. The matrices in $GL_3(\Z)$ that keep the polyton's first coordinate 1 are given in block form:
 
+\[
+\begin{pNiceArray}{c|c}
+  1 & \begin{array}{c c } 
+    t_1 & t_2
+ \end{array} \\
+  \hline
+  \begin{array}{c c } 
+    0 \\
+    0
+ \end{array} & M
+\end{pNiceArray}
+\]
+where $t_1,t_2 \in \Z$ and $M \in GL_{2} (\Z)$. This means we consider $P\subset \Z^2$ up to $GL_{2} (\Z)$ and translations. \\
+\newline
+Because we know $A^T$ is surjective, we know that the primary polytope has exactly 5 integer points in it. This means that toric Calabi-Yau threefold of Picard rank 2 come from convex polygons in $\Z^2$ with exactly 5 integer points, up to the $GL_{2} \Z \times \Z^2$ action. We have proved that there are only six such classes of  polygons, see Figure \ref{CY3rank2}.
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=14cm]{3foldsofpicardrank2.png}
+    \caption{The toric Calabi-Yau threefolds of Picard rank 2.}
+    \label{CY3rank2}
+\end{figure}
+The third polygon in Figure \ref{CY3rank2} actually corresponds to our example in Section \ref{rank2example}. The fourth and sixth polygon examples have been done by my supervisor Ed Segal. I have also done the computation for the first polygon, which we note would give an example where we have more than one discriminant component as there are two minimal faces. To complete this project we therefore need to work out the conjecture for the second and fifth polygons. Though these examples only have one discriminant component, they should be harder because we can't compute the discriminant locus directly. We will need to use Cayley method, presented in \cite[Chapter 2]{gelfand1994discriminants}. Once we have the curves we also suspect the fundamental group computation will be harder than those we have had to do so far, since our curves have been exceptionally nice (the components smooth, with good real pictures). We hope that these examples will exhibit some new and interesting behaviour. \\
+\newline
+We also have shown that there are only finitely many toric Calabi-Yau threefolds for any given rank, so in principle we could carry out this program for Picard rank 3. \\
+\newline
+We also note that this problem has been solved for a special class of toric CY GIT problems called \textit{quasi-symmetric} \cite{quasi-sym}. We are thinking about whether we can use this result to generalise to other examples by embedding the data of our GIT problem in a quasi-symmetric one. We are also thinking about whether we can say something about some non-abelian GIT quotients. 
 \bibliographystyle{abbrv}
 \bibliography{mybib.bib}
 
