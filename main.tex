@@ -3,7 +3,7 @@
 
 %for the git double slash
 \usepackage{stmaryrd}
-\usepackage{hyperref}
+\usepackage[colorlinks]{hyperref}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsthm}
@@ -155,7 +155,7 @@ Finally, in Section \ref{future} we lay out our plan to prove this conjecture fo
 \label{background}
 \subsection{General Toric Geometric Invariant Theory}
 \label{GIT}
-We start with the algebraic torus $T \cong (\mathbb{C}^*)^r$ acting on a vector space $V \cong \mathbb{C}^n$. We call this a rank $r$ dimension $n$ \textit{toric geometric invariant theory (GIT) problem}. We would like to construct a space that parametrises the actions quotients. \textit{Geometric Invariant Theory} (GIT) is the theory that tells us \textit{the unstable locus} to throw away before we quotient so that we get a good/geometric quotient \cite{mumford1994geometric}. GIT quotients are often denoted $X \sslash G$. By the representation theory of the algebraic torus, for a choice of coordinates on $T$ and $V$ the actions must be of the form:
+We start with the algebraic torus $T \cong (\mathbb{C}^*)^r$ acting on a vector space $V \cong \mathbb{C}^n$. We call this a rank $r$ dimension $n$ \textit{toric geometric invariant theory (GIT) problem}. We would like to construct a space that parametrises the actions orbits. \textit{Geometric Invariant Theory} (GIT) is the theory that tells us \textit{the unstable locus} to throw away before we quotient so that we get a good/geometric quotient \cite{mumford1994geometric}. GIT quotients are often denoted $X \sslash G$. By the representation theory of the algebraic torus, for a choice of coordinates on $T$ and $V$ the actions must be of the form:
 $$
 (\lambda_1, \dots, \lambda_r) \cdot (z_1, \dots, z_n) = ({\lambda_1}^{q_{11}}{\lambda_2}^{q_{21}}\dots {\lambda_r}^{q_{r1}} z_1, \dots, {\lambda_1}^{q_{1n}}{\lambda_2}^{q_{2n}}\dots {\lambda_r}^{q_{rn}} z_1)
 $$
@@ -246,7 +246,7 @@ We call $\mathcal{W}_\theta$ a \textit{window}. We emphasis that the choice of $
 \label{wallcrossingformula}
 D^b(X_{\theta}) = \langle D^b(X_{\phi}), D^b(Z),\dots, D^b(Z)\rangle_{\text{SOD}}
 \end{equation}
-where $Z$ is constructed by a `sub-GIT problem' called a \textit{Higgs GIT problem}, which we will explain shortly, and the number of copies of $Z$ can be easily computed combinatorially. We will refer to doing as \textit{wall crossing}. \\
+where $Z$ is constructed by a `sub-GIT problem' called a \textit{Higgs GIT problem}, which we will explain shortly, and the number of copies of $Z$ can be easily computed combinatorially. We will refer to equation \eqref{wallcrossingformula} as the \textit{wall crossing formula}. \\
 \newline
 The number of copies of $D^b(Z)$ is 
 \begin{equation}
@@ -264,7 +264,7 @@ $$
 $$
 which we call \textit{Higgs GIT problem} associated to $\mathcal{T}$.
 \end{definition}
-We have a Higgs GIT problem associated to a wall $W$ by taking the subset of weights to be the weights lying on the wall. We denote this subset of weights $Q(W)$, and the GIT problem as $Q_W$. This gives a rank $r-1$, dimension $|Q(W) |$ toric GIT problem. $Z$ is a GIT quotient of this new GIT problem, where we choose the stability condition to be on the wall $W$. In fact, $Z$ is a quotient of the fixed locus of the action of $\lambda_W$ by the rest of the action of $T$.
+We have a Higgs GIT problem associated to a wall $W$ by taking the subset of weights to be the weights lying on the subspace spanned by the wall. We denote this subset of weights $Q(W)$, and the GIT problem as $Q_W$. This gives a rank $r-1$, dimension $|Q(W)|$ toric GIT problem. $Z$ is a GIT quotient of this new GIT problem, where we choose the stability condition to be on the wall $W$. In fact, $Z$ is a quotient of the fixed locus of the action of $\lambda_W$ by the rest of the action of $T$.
 \subsection{Spherical Functors}
 \label{CY}
 
@@ -939,15 +939,15 @@ where $t_1,t_2 \in \Z$ and $M \in GL_{2} (\Z)$. This means we consider $P\subset
 Because we know $A^T$ is surjective, we know that the primary polytope has exactly 5 integer points in it. This means that toric Calabi-Yau threefold of Picard rank 2 come from convex polygons in $\Z^2$ with exactly 5 integer points, up to the $GL_{2} \Z \times \Z^2$ action. We have proved that there are only six such classes of  polygons, see Figure \ref{CY3rank2}.
 \begin{figure}[!h]
     \centering
-    \includegraphics[width=14cm]{3foldsofpicardrank2.png}
+    \includegraphics[width=12cm]{3foldsofpicardrank2.png}
     \caption{The toric Calabi-Yau threefolds of Picard rank 2.}
     \label{CY3rank2}
 \end{figure}
-The third polygon in Figure \ref{CY3rank2} actually corresponds to our example in Section \ref{rank2example}. The fourth and sixth polygon examples have been done by my supervisor Ed Segal. I have also done the computation for the first polygon, which we note would give an example where we have more than one discriminant component as there are two minimal faces. To complete this project we therefore need to work out the conjecture for the second and fifth polygons. Though these examples only have one discriminant component, they should be harder because we can't compute the discriminant locus directly. We will need to use Cayley method, presented in \cite[Chapter 2]{gelfand1994discriminants}. Once we have the curves we also suspect the fundamental group computation will be harder than those we have had to do so far, since our curves have been exceptionally nice (the components smooth, with good real pictures). We hope that these examples will exhibit some new and interesting behaviour. \\
+The third polygon in Figure \ref{CY3rank2} actually corresponds to our example in Section \ref{rank2example}. The fourth and sixth polygon examples have been worked out in \cite{edwill} as part of another class of examples. I have also done the computation for the first polygon, which we note would give an example where we have more than one discriminant component as there are two minimal faces. To complete this project I need to work out the conjecture for the second and fifth polygons. Though these examples only have one discriminant component, they should be harder because we can't compute the discriminant locus directly. We will need to use Cayley method, presented in \cite[Chapter 2]{gelfand1994discriminants}. Once we have the curves the fundamental group computation should be harder than those in the examples far, since our curves have been exceptionally nice (the components smooth, with good real pictures). It's my hope that these examples will exhibit some new and interesting behaviour. \\
 \newline
-We also have shown that there are only finitely many toric Calabi-Yau threefolds for any given rank, so in principle we could carry out this program for Picard rank 3. \\
+I also have shown that there are only finitely many toric Calabi-Yau threefolds for any given rank, so in principle we could carry out this program for Picard rank 3. \\
 \newline
-We also note that this problem has been solved for a special class of toric CY GIT problems called \textit{quasi-symmetric} \cite{quasi-sym}. We are thinking about whether we can use this result to generalise to other examples by embedding the data of our GIT problem in a quasi-symmetric one. We are also thinking about whether we can say something about some non-abelian GIT quotients. 
+We also note that this problem has been solved for a special class of toric CY GIT problems called \textit{quasi-symmetric} \cite{quasi-sym}. I am thinking about whether this result can be used to generalise to other examples by embedding the data of our GIT problem into a quasi-symmetric one. I am also thinking about whether we can say something about some non-abelian GIT quotients. 
 \bibliographystyle{abbrv}
 \bibliography{mybib.bib}
 
