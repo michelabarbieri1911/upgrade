@@ -914,15 +914,14 @@ $$
 using the Euler sequence. This is relation \eqref{rel2}.
 \section{Toric Calabi-Yau threefolds of Picard rank 2}
 \label{future}
-In the rank 2 example we presented in Section \ref{rank2example}, the GIT quotient $X_1$ is a toric Calabi-Yau threefold of Picard rank 2. Given any toric Calabi-Yau threefold $X$ of Picard rank 2, we can consider the brane monodromy conjecture by constructing a toric Calabi-Yau GIT problem $(\CC^*)^2$ acting on $\CC^5$ for which $X$ is a GIT quotient. Note that we know the rank of the GIT problem 2 because of the rank of the Picard group, and we know the dimension of the problem is 5 because the quotient $X$ is three-dimensional. Suppose the problem is given by exact sequence
+In the rank 2 example we presented in Section \ref{rank2example}, the GIT quotient $X_1$ is a toric Calabi-Yau threefold of Picard rank 2. Given any toric Calabi-Yau threefold $X$ of Picard rank 2, we can consider the brane monodromy conjecture by constructing a toric Calabi-Yau GIT problem $(\CC^*)^2$ acting on $\CC^5$ for which $X$ is a GIT quotient. Note that we know the rank of the GIT problem 2 because of the rank of the Picard group, and we know the dimension of the problem is 5 because the quotient $X$ is three-dimensional. Our problem is therefore given by exact sequence
 $$
-\Z^3 \xrightarrow{A} \Z^5 \xrightarrow{Q} \Z^2
+N \xrightarrow{A} \Z^5 \xrightarrow{Q} L^v
 $$
-where $Q$ is the weight matrix. Recall from Section \ref{fips} the definition of the primary polygon $P \in \Z^3 \otimes_{\Z} \R$, which is the convex hull of the rays $a_i = A^T(e_i) \in \Z^{3}$. Different triangulations of the primary polygon correspond precisely to the different GIT quotients, in that the cone on the triangulated polygon gives you the toric fan of your quotient. Since we could have chosen a different set of generators for $\text{ker}Q \cong \Z^3$, we have an action by $GL_3(\Z)$ on this polygon. Because of our Calabi-Yau assumption (the weights sum up to 0), we can choose generators so that the column of $A$ is a list of 1s, and we see $P$ living in the rank 2 lattice in $\Z^3$ where the first integer coordinate is 1. \\
-\newline
-Even if we impose the first column of $A$ to be 1, we still have a residual action on $P$. The matrices in $GL_3(\Z)$ that keep the polyton's first coordinate 1 are given in block form:
-
-\[
+with $Q$ the weight matrix and $\text{ker} (Q) = A$, where $N\cong \Z^3$ and $ L^v \cong \Z^2$. Recall from Section \ref{fips} the definition of the primary polygon $P \in \Z^3 \otimes_{\Z} \R$, which is the convex hull of the rays $a_i = A^T(e_i) \in \Z^{3}$. 
+Because of our Calabi-Yau assumption (the weights sum up to 0), we can choose generators for $N$ so that the first column of $A$ is a list of 1s, and we see $P$ living in the rank 2 lattice in $\Z^3$ where the first integer coordinate is 1. Imposing the first column of $A$ to be 1 does not uniquely determine generators for $N$. More precisely, these matrix representations of $A$ are unique up to right multiplication by 
+matrices in $GL_3(\Z)$ given in block form as
+\[ B =
 \begin{pNiceArray}{c|c}
   1 & \begin{array}{c c } 
     t_1 & t_2
@@ -934,9 +933,44 @@ Even if we impose the first column of $A$ to be 1, we still have a residual acti
  \end{array} & M
 \end{pNiceArray}
 \]
-where $t_1,t_2 \in \Z$ and $M \in GL_{2} (\Z)$. This means we consider $P\subset \Z^2$ up to $GL_{2} (\Z)$ and translations. \\
-\newline
-Because we know $A^T$ is surjective, we know that the primary polytope has exactly 5 integer points in it. This means that toric Calabi-Yau threefold of Picard rank 2 come from convex polygons in $\Z^2$ with exactly 5 integer points, up to the $GL_{2} \Z \times \Z^2$ action. We have proved that there are only six such classes of  polygons, see Figure \ref{CY3rank2}.
+where $t_1,t_2 \in \Z$ and $M \in GL_{2} (\Z)$.
+This the primary polygon $P\subset \Z^2$ is only unique up to an action of $\Z^2 \rtimes GL_2(\Z)$\footnote{Multiplication in $\Z^2 \rtimes GL_2(\Z)$ is given by
+    $$
+    \left(\begin{pmatrix}
+       t_1 \\
+       t_2
+    \end{pmatrix}, M \right)
+    \cdot
+    \left(\begin{pmatrix}
+        s_1 \\
+        s_2
+     \end{pmatrix}, M \right)  
+     = \left(\begin{pmatrix}
+        t_1 \\
+        t_2
+     \end{pmatrix} + N\begin{pmatrix}
+        s_1 \\
+        s_2
+     \end{pmatrix} , MN  \right).
+   $$
+
+} given by
+$$
+ \left(\begin{pmatrix}
+    t_1 \\
+    t_2
+ \end{pmatrix}, M \right) \cdot \begin{pmatrix}
+    x_1 \\
+    x_2
+ \end{pmatrix} = \begin{pmatrix}
+    t_1 \\
+    t_2
+ \end{pmatrix} + M  \begin{pmatrix}
+    x_1 \\
+    x_2
+ \end{pmatrix}.
+$$
+Because we know $A^T$ is surjective, we know that the primary polytope $P$has exactly 5 integer points in it. This means that toric Calabi-Yau threefold of Picard rank 2 come from convex lattice polygons in $\Z^2$ with exactly 5 integer points, up to the $\Z^2 \rtimes GL_2(\Z)$ action. We have proved that there are only six such classes of  polygons, see Figure \ref{CY3rank2}.
 \begin{figure}[!h]
     \centering
     \includegraphics[width=12cm]{3foldsofpicardrank2.png}
@@ -944,8 +978,6 @@ Because we know $A^T$ is surjective, we know that the primary polytope has exact
     \label{CY3rank2}
 \end{figure}
 The third polygon in Figure \ref{CY3rank2} actually corresponds to our example in Section \ref{rank2example}. The fourth and sixth polygon examples have been worked out in \cite{edwill} as part of another class of examples. I have also done the computation for the first polygon, which we note would give an example where we have more than one discriminant component as there are two minimal faces. To complete this project I need to work out the conjecture for the second and fifth polygons. Though these examples only have one discriminant component, they should be harder because we can't compute the discriminant locus directly. We will need to use Cayley method, presented in \cite[Chapter 2]{gelfand1994discriminants}. Once we have the curves the fundamental group computation should be harder than those in the examples far, since our curves have been exceptionally nice (the components smooth, with good real pictures). It's my hope that these examples will exhibit some new and interesting behaviour. \\
-\newline
-I also have shown that there are only finitely many toric Calabi-Yau threefolds for any given rank, so in principle we could carry out this program for Picard rank 3. \\
 \newline
 We also note that this problem has been solved for a special class of toric CY GIT problems called \textit{quasi-symmetric} \cite{quasi-sym}. I am thinking about whether this result can be used to generalise to other examples by embedding the data of our GIT problem into a quasi-symmetric one. I am also thinking about whether we can say something about some non-abelian GIT quotients. 
 \bibliographystyle{abbrv}

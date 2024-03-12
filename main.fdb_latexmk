@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1709123810 "main.aux" "main.bbl" "main" 1709226365
+["bibtex main"] 1710237387 "main.aux" "main.bbl" "main" 1710237391
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "main.aux" 1709136998 11633 4c1dc6360c9c2b72cb84665758471283 "pdflatex"
+  "main.aux" 1710237391 11633 590f9c860b81ab09aed45c0091153aee "pdflatex"
   "mybib.bib" 1708787532 5686 044d7ece3acd4d4628e5bccaa91a073a ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1709136994 "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.tex" "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf" "main" 1709226365
-  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux" 1709136998 11633 4c1dc6360c9c2b72cb84665758471283 ""
-  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.tex" 1709226365 91543 b9de93116655612c86d4f7a1a4f2834d ""
+["pdflatex"] 1710237387 "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.tex" "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf" "main" 1710237391
+  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.aux" 1710237391 11633 590f9c860b81ab09aed45c0091153aee ""
+  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.tex" 1710237383 91828 9936289dd4ec61585180309e524a3c04 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -55,6 +55,7 @@
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb" 1248133631 35660 fb24af7afbadb71801619f1415838111 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb" 1248133631 30457 bc0868ebece724ed7c3d37e3d9bff7bd ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb" 1248133631 30273 87a352d78b6810ae5cfdc68d2fb827b2 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb" 1248133631 35457 884c5a936fbb3fae6a4c18058662d654 ""
@@ -209,11 +210,11 @@
   "face&subspace/secondary.png" 1708613466 13755 738726365903e388ef55b0a032df5c6e ""
   "git/diffquotients.png" 1708613466 42706 b5f8cf5a7a83f6b2023a6ad1272fd9b3 ""
   "git/orbits of P1.png" 1708613466 977208 4263fab96ea02bac3c2b05494a23516c ""
-  "main.aux" 1709136998 11633 4c1dc6360c9c2b72cb84665758471283 "pdflatex"
-  "main.bbl" 1709123810 3238 65d4f2e57e944be33f6ba8ece08f0aa2 "bibtex main"
-  "main.out" 1709136998 1628 278cf4cb3ac437ddff9605deab69625d "pdflatex"
-  "main.tex" 1709226365 91543 b9de93116655612c86d4f7a1a4f2834d ""
-  "main.toc" 1709136998 1060 603e1feaea37e4bc7a26100d09709606 "pdflatex"
+  "main.aux" 1710237391 11633 590f9c860b81ab09aed45c0091153aee "pdflatex"
+  "main.bbl" 1710237387 3238 65d4f2e57e944be33f6ba8ece08f0aa2 "bibtex main"
+  "main.out" 1710237391 1628 278cf4cb3ac437ddff9605deab69625d "pdflatex"
+  "main.tex" 1710237383 91828 9936289dd4ec61585180309e524a3c04 ""
+  "main.toc" 1710237391 1060 603e1feaea37e4bc7a26100d09709606 "pdflatex"
   "rank2exmp/B3.png" 1708613466 52460 d68f6f42260b8e88da9c14b4d340e547 ""
   "rank2exmp/FIPS1.png" 1708613466 51627 70d700a5bbc6aab1a22bb5149b9ddb25 ""
   "rank2exmp/braidaction1.png" 1708613466 53889 c56e693db051d4c39f899be6ea0310b3 ""
@@ -229,8 +230,8 @@
   (generated)
   "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.pdf"
   "main.toc"
-  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.log"
   "main.out"
   "main.log"
+  "/Users/Barbieri/Desktop/LSGNT Year 3/upgrade/main.log"
   "main.aux"
   "main.pdf"
